@@ -20,11 +20,6 @@ OWNER_NAME_TO_SQL_QUERY_MAP = {
     'vidler': "OWNER_NAME LIKE '%VIDLER%'",
     'wpi': "OWNER_NAME LIKE '%WPI%'",
 }
-# ATTRIBUTE_FILTER = "OWNER_NAME = 'CV HARQUAHALA LLC'"
-# ATTRIBUTE_FILTER = "OWNER_NAME = 'COURTHOUSE AG HOLDINGS LLC'"
-# ATTRIBUTE_FILTER = "OWNER_NAME LIKE '% VERMA%' or OWNER_NAME LIKE 'VERMA%'"
-# ATTRIBUTE_FILTER = "OWNER_NAME LIKE '%VIDLER%'"
-# ATTRIBUTE_FILTER = "OWNER_NAME LIKE '%WPI%'"
 
 # where to save data
 DIRECTORY = 'data/'
@@ -86,6 +81,9 @@ def format_and_save(owner_name: str):
 
 @app.command()
 def single_query_and_save(owner_name: str, attribute_filter: str):
+  '''
+  Run a single owner / attribute query
+  '''
   query_rest_server(owner_name, attribute_filter)
   gdf = format_and_save(owner_name)
   return gdf
@@ -93,6 +91,9 @@ def single_query_and_save(owner_name: str, attribute_filter: str):
 
 @app.command()
 def query_and_save_all():
+  '''
+  Run all owner / attribute queries and create a merged file
+  '''
 
   #get list of gdfs for each owner
   gdfs = []
