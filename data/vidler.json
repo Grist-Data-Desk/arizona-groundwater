@@ -1,0 +1,1283 @@
+{
+  "displayFieldName": "OWNER_NAME",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "APN": "APN",
+    "FLOOR": "Floor",
+    "APN_DASH": "Parcel Number",
+    "BOOK": "Book",
+    "MAP": "Map",
+    "ITEM": "Item",
+    "PUC": "PUC",
+    "OWNER_NAME": "Owner Name",
+    "MAIL_ADDR1": "Mailing Address1",
+    "MAIL_ADDR2": "Mailing Address2",
+    "MAIL_CITY": "Mailing Address City",
+    "MAIL_STATE": "Mailing Address State",
+    "MAIL_CNTRY": "Mailing Address Country",
+    "MAIL_ZIP": "Mailing Address Zip Code",
+    "PHYSICAL_STREET_NUM": "Property Street Number",
+    "PHYSICAL_STREET_DIR": "Property Street Direction",
+    "PHYSICAL_STREET_NAME": "Property Street Name",
+    "PHYSICAL_STREET_TYPE": "Property Street Type",
+    "PHYSICAL_STREET_SUFFIX": "Property Street Suffix",
+    "PHYSICAL_STREET_POSTDIR": "Property Street Post Direction",
+    "PHYSICAL_SUITE": "Property Suite",
+    "PHYSICAL_CITY": "Property City",
+    "PHYSICAL_ZIP": "Property Zip Code",
+    "PHYSICAL_ADDRESS": "Property Address",
+    "MAIL_ADDRESS": "Mailing Address",
+    "DEED_NUMBER": "Deed Number",
+    "DEED_DATE": "Deed Date",
+    "SALE_DATE": "Sale Date",
+    "SALE_PRICE": "Sale Price",
+    "MCRNUM": "MCR",
+    "MCR_BOOK": "MCR BOOK",
+    "MCR_PAGE": "MCR PAGE",
+    "SUBNAME": "Subdivision Name",
+    "LAND_SIZE": "Land Size",
+    "LOT_NUM": "Lot Number",
+    "BLOCK": "BLOCK",
+    "TRACT": "TRACT",
+    "STR": "Section Township Range",
+    "CITY_ZONING": "Zoning",
+    "JURISDICTION": "Jurisdiction",
+    "CONST_YEAR": "Construction Year",
+    "LIVING_SPACE": "Living Space Size",
+    "INCAREOF": "In Care Of",
+    "TAX_YR_CUR": "Current Tax Year",
+    "FCV_CUR": "Current Full Cash Value",
+    "LPV_CUR": "Current Limited Property Value",
+    "LC_CUR": "Current Tax Year Legal Class",
+    "TAX_YR_PREV": "Previous Tax Year",
+    "FCV_PREV": "Previous Full Cash Value",
+    "LPV_PREV": "Previous Limited Property Value",
+    "LC_PREV": "Previous Tax Year Legal Class",
+    "Shape_Length": "Shape_Length",
+    "Shape_Area": "Shape_Area",
+    "LONGITUDE": "Longitude",
+    "LATITUDE": "Latitude"
+  },
+  "geometryType": "esriGeometryPolygon",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+    },
+    {
+      "name": "APN",
+      "type": "esriFieldTypeString",
+      "alias": "APN",
+      "length": 50,
+      "domain": null
+    },
+    {
+      "name": "FLOOR",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Floor",
+      "domain": null
+    },
+    {
+      "name": "APN_DASH",
+      "type": "esriFieldTypeString",
+      "alias": "Parcel Number",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "BOOK",
+      "type": "esriFieldTypeString",
+      "alias": "Book",
+      "length": 3,
+      "domain": null
+    },
+    {
+      "name": "MAP",
+      "type": "esriFieldTypeString",
+      "alias": "Map",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "ITEM",
+      "type": "esriFieldTypeString",
+      "alias": "Item",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "PUC",
+      "type": "esriFieldTypeString",
+      "alias": "PUC",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "OWNER_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Owner Name",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDR1",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address1",
+      "length": 140,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDR2",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address2",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_CITY",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address City",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_STATE",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address State",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "MAIL_CNTRY",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address Country",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ZIP",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address Zip Code",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_NUM",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Number",
+      "length": 6,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_DIR",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Direction",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Name",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_TYPE",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Type",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_SUFFIX",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Suffix",
+      "length": 24,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_POSTDIR",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Post Direction",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_SUITE",
+      "type": "esriFieldTypeString",
+      "alias": "Property Suite",
+      "length": 7,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_CITY",
+      "type": "esriFieldTypeString",
+      "alias": "Property City",
+      "length": 30,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_ZIP",
+      "type": "esriFieldTypeString",
+      "alias": "Property Zip Code",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_ADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "Property Address",
+      "length": 256,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address",
+      "length": 256,
+      "domain": null
+    },
+    {
+      "name": "DEED_NUMBER",
+      "type": "esriFieldTypeString",
+      "alias": "Deed Number",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "DEED_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "Deed Date",
+      "length": 8,
+      "domain": null
+    },
+    {
+      "name": "SALE_DATE",
+      "type": "esriFieldTypeString",
+      "alias": "Sale Date",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "SALE_PRICE",
+      "type": "esriFieldTypeString",
+      "alias": "Sale Price",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "MCRNUM",
+      "type": "esriFieldTypeString",
+      "alias": "MCR",
+      "length": 7,
+      "domain": null
+    },
+    {
+      "name": "MCR_BOOK",
+      "type": "esriFieldTypeString",
+      "alias": "MCR BOOK",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "MCR_PAGE",
+      "type": "esriFieldTypeString",
+      "alias": "MCR PAGE",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "SUBNAME",
+      "type": "esriFieldTypeString",
+      "alias": "Subdivision Name",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "LAND_SIZE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Land Size",
+      "domain": null
+    },
+    {
+      "name": "LOT_NUM",
+      "type": "esriFieldTypeString",
+      "alias": "Lot Number",
+      "length": 6,
+      "domain": null
+    },
+    {
+      "name": "BLOCK",
+      "type": "esriFieldTypeString",
+      "alias": "Block",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "TRACT",
+      "type": "esriFieldTypeString",
+      "alias": "Tract",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "STR",
+      "type": "esriFieldTypeString",
+      "alias": "Section Township Range",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "CITY_ZONING",
+      "type": "esriFieldTypeString",
+      "alias": "Zoning",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "JURISDICTION",
+      "type": "esriFieldTypeString",
+      "alias": "Jurisdiction",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "CONST_YEAR",
+      "type": "esriFieldTypeString",
+      "alias": "Construction Year",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "LIVING_SPACE",
+      "type": "esriFieldTypeString",
+      "alias": "Living Space Size",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "INCAREOF",
+      "type": "esriFieldTypeString",
+      "alias": "In Care Of",
+      "length": 45,
+      "domain": null
+    },
+    {
+      "name": "TAX_YR_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Tax Year",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "FCV_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Full Cash Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LPV_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Limited Property Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LC_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Tax Year Legal Class",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "TAX_YR_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Tax Year",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "FCV_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Full Cash Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LPV_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Limited Property Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LC_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Tax Year Legal Class",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "Shape_Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Length",
+      "domain": null
+    },
+    {
+      "name": "Shape_Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Area",
+      "domain": null
+    },
+    {
+      "name": "LONGITUDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Longitude",
+      "domain": null
+    },
+    {
+      "name": "LATITUDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Latitude",
+      "domain": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 722531,
+        "APN": "22046014B",
+        "FLOOR": 1,
+        "APN_DASH": "220-46-014B",
+        "BOOK": "220",
+        "MAP": "46",
+        "ITEM": "014B",
+        "PUC": "0829",
+        "OWNER_NAME": "JULIE A VIDLER REVOCABLE LIVING TRUST",
+        "MAIL_ADDR1": "10626 E BOULDER DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "APACHE JUNCTION",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85120",
+        "PHYSICAL_STREET_NUM": "10626",
+        "PHYSICAL_STREET_DIR": "E",
+        "PHYSICAL_STREET_NAME": "BOULDER",
+        "PHYSICAL_STREET_TYPE": "DR",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "APACHE JUNCTION",
+        "PHYSICAL_ZIP": "85120",
+        "PHYSICAL_ADDRESS": "10626 E BOULDER DR   APACHE JUNCTION  85120",
+        "MAIL_ADDRESS": "10626 E BOULDER DR APACHE JUNCTION AZ USA 85120",
+        "DEED_NUMBER": "20200941177",
+        "DEED_DATE": 1601596800000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13990,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "23 1N 7E",
+        "CITY_ZONING": "R1-8",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "2009",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     184,116",
+        "LPV_CUR": "     119,466",
+        "LC_CUR": "3.1",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     155,300",
+        "LPV_PREV": "     113,778",
+        "LC_PREV": "3.1",
+        "Shape_Length": 175.5315949701239,
+        "Shape_Area": 1870.9666375254817,
+        "LONGITUDE": -111.60149934081804,
+        "LATITUDE": 33.41986763821979
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -111.60133502560612,
+              33.42005922158973
+            ],
+            [
+              -111.60133592032815,
+              33.419675351122756
+            ],
+            [
+              -111.60166366257472,
+              33.41967542385206
+            ],
+            [
+              -111.60166277054763,
+              33.42005908287981
+            ],
+            [
+              -111.601662768751,
+              33.4200599031429
+            ],
+            [
+              -111.60133502470781,
+              33.42005987390136
+            ],
+            [
+              -111.60133502560612,
+              33.42005922158973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 998738,
+        "APN": "30908208",
+        "FLOOR": 1,
+        "APN_DASH": "309-08-208",
+        "BOOK": "309",
+        "MAP": "08",
+        "ITEM": "208",
+        "PUC": "0141",
+        "OWNER_NAME": "VIDLER JAMES W/LESLIE ANN",
+        "MAIL_ADDR1": "2037 S ANANA",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "MESA",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85208",
+        "PHYSICAL_STREET_NUM": "2037",
+        "PHYSICAL_STREET_DIR": "S",
+        "PHYSICAL_STREET_NAME": "ANANEA",
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "MESA",
+        "PHYSICAL_ZIP": "85209",
+        "PHYSICAL_ADDRESS": "2037 S ANANEA    MESA  85209",
+        "MAIL_ADDRESS": "2037 S ANANA MESA AZ USA 85208",
+        "DEED_NUMBER": "19950306244",
+        "DEED_DATE": 801792000000,
+        "SALE_DATE": "01/01/1995",
+        "SALE_PRICE": "146796",
+        "MCRNUM": "369-07",
+        "MCR_BOOK": "369",
+        "MCR_PAGE": "07",
+        "SUBNAME": "CONTINENTAL AT SUPERSTITION SPRINGS",
+        "LAND_SIZE": 11522,
+        "LOT_NUM": "208",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "5 1S 7E",
+        "CITY_ZONING": "RS-7",
+        "JURISDICTION": "MESA",
+        "CONST_YEAR": "1995",
+        "LIVING_SPACE": "   2,316",
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     510,200",
+        "LPV_CUR": "     262,138",
+        "LC_CUR": "3.1",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     422,300",
+        "LPV_PREV": "     249,656",
+        "LC_PREV": "3.1",
+        "Shape_Length": 162.02157063538027,
+        "Shape_Area": 1523.1662068745566,
+        "LONGITUDE": -111.66815305866275,
+        "LATITUDE": 33.377547972272794
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -111.66804564157356,
+              33.377365658735485
+            ],
+            [
+              -111.66841627568,
+              33.377488375246166
+            ],
+            [
+              -111.66841071959996,
+              33.37750147737954
+            ],
+            [
+              -111.66840174351546,
+              33.37751851440034
+            ],
+            [
+              -111.6683902169765,
+              33.3775339406465
+            ],
+            [
+              -111.66837642282074,
+              33.37754737758952
+            ],
+            [
+              -111.66835938232714,
+              33.377563446743295
+            ],
+            [
+              -111.6683452288858,
+              33.37758210890351
+            ],
+            [
+              -111.66833435100328,
+              33.37760285180102
+            ],
+            [
+              -111.66832704727328,
+              33.377625106051255
+            ],
+            [
+              -111.66832351818037,
+              33.37764826078357
+            ],
+            [
+              -111.66832386059683,
+              33.37767168040945
+            ],
+            [
+              -111.66791725974305,
+              33.377686139534966
+            ],
+            [
+              -111.66795634534529,
+              33.37757785185312
+            ],
+            [
+              -111.6679991563972,
+              33.377470982212074
+            ],
+            [
+              -111.66804564157356,
+              33.377365658735485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1267798,
+        "APN": "50615030",
+        "FLOOR": 1,
+        "APN_DASH": "506-15-030",
+        "BOOK": "506",
+        "MAP": "15",
+        "ITEM": "030",
+        "PUC": "9540",
+        "OWNER_NAME": "VIDLER WATER COMPANY INC LE # 01-31833",
+        "MAIL_ADDR1": "3480 GS RICHARDS BLVD STE 101",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "CARSON CITY",
+        "MAIL_STATE": "NV",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "89703",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "3480 GS RICHARDS BLVD STE 101 CARSON CITY NV USA 89703",
+        "DEED_NUMBER": "NOD-60935",
+        "DEED_DATE": 1171497600000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 22362628,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "31 3N 10W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     387,900",
+        "LPV_CUR": "     142,822",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     275,700",
+        "LPV_PREV": "     136,021",
+        "LC_PREV": "2.R",
+        "Shape_Length": 6983.409798050728,
+        "Shape_Area": 3021284.404955594,
+        "LONGITUDE": -113.32606120803345,
+        "LATITUDE": 33.557965212575276
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.31781630249988,
+              33.55168696700001
+            ],
+            [
+              -113.31781620009191,
+              33.551605506172585
+            ],
+            [
+              -113.3180358507553,
+              33.55160494843167
+            ],
+            [
+              -113.31803638525291,
+              33.55160494618573
+            ],
+            [
+              -113.32644833713418,
+              33.55158329236038
+            ],
+            [
+              -113.3264800422738,
+              33.551583210009355
+            ],
+            [
+              -113.33375057139888,
+              33.551564031950406
+            ],
+            [
+              -113.33380057611916,
+              33.55156389869143
+            ],
+            [
+              -113.33378468851505,
+              33.55854257365109
+            ],
+            [
+              -113.33378045834837,
+              33.56040169389361
+            ],
+            [
+              -113.33378032270276,
+              33.5604610142452
+            ],
+            [
+              -113.3337688170806,
+              33.56552124020359
+            ],
+            [
+              -113.31787638092777,
+              33.56311220123096
+            ],
+            [
+              -113.31783060906909,
+              33.56310525921713
+            ],
+            [
+              -113.31782527487292,
+              33.558853055619004
+            ],
+            [
+              -113.31781630429649,
+              33.55168889401168
+            ],
+            [
+              -113.31781630249988,
+              33.55168696700001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1267995,
+        "APN": "50620010A",
+        "FLOOR": 1,
+        "APN_DASH": "506-20-010A",
+        "BOOK": "506",
+        "MAP": "20",
+        "ITEM": "010A",
+        "PUC": "0014",
+        "OWNER_NAME": "VIDLER WATER COMPANY INC",
+        "MAIL_ADDR1": "3480 GS RICHARDS BLVD STE 101",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "CARSON CITY",
+        "MAIL_STATE": "NV",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "89703",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "3480 GS RICHARDS BLVD STE 101 CARSON CITY NV USA 89703",
+        "DEED_NUMBER": "20160195878",
+        "DEED_DATE": 1458864000000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 5773442,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "6 2N 10W",
+        "CITY_ZONING": "RU-190",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     165,200",
+        "LPV_CUR": "      61,990",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     120,700",
+        "LPV_PREV": "      59,039",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3565.6831288083563,
+        "Shape_Area": 788618.0413106105,
+        "LONGITUDE": -113.33014243461908,
+        "LATITUDE": 33.547947985377256
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.3264800422738,
+              33.551583210009355
+            ],
+            [
+              -113.32649335261137,
+              33.54432904526639
+            ],
+            [
+              -113.33376759627014,
+              33.544309870838255
+            ],
+            [
+              -113.33379577552229,
+              33.54430979521867
+            ],
+            [
+              -113.33380057611916,
+              33.55156389869143
+            ],
+            [
+              -113.33375057139888,
+              33.551564031950406
+            ],
+            [
+              -113.3264800422738,
+              33.551583210009355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1267998,
+        "APN": "50620013A",
+        "FLOOR": 1,
+        "APN_DASH": "506-20-013A",
+        "BOOK": "506",
+        "MAP": "20",
+        "ITEM": "013A",
+        "PUC": "0014",
+        "OWNER_NAME": "VIDLER WATER COMPANY INC",
+        "MAIL_ADDR1": "3480 GS RICHARDS BLVD STE 101",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "CARSON CITY",
+        "MAIL_STATE": "NV",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "89703",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "3480 GS RICHARDS BLVD STE 101 CARSON CITY NV USA 89703",
+        "DEED_NUMBER": "20160195878",
+        "DEED_DATE": 1458864000000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 5856206,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "7 2N 10W",
+        "CITY_ZONING": "RU-190",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     106,900",
+        "LPV_CUR": "      31,397",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      62,200",
+        "LPV_PREV": "      29,902",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3559.8202748522535,
+        "Shape_Area": 785809.4000066314,
+        "LONGITUDE": -113.33014200861221,
+        "LATITUDE": 33.533422747260005
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.32650671505122,
+              33.53705727218703
+            ],
+            [
+              -113.32649064329249,
+              33.529803172378244
+            ],
+            [
+              -113.33377969567869,
+              33.52978901865856
+            ],
+            [
+              -113.33378870308606,
+              33.535575091666125
+            ],
+            [
+              -113.3337909910951,
+              33.53704311141843
+            ],
+            [
+              -113.33378433727377,
+              33.53704312414753
+            ],
+            [
+              -113.32650671505122,
+              33.53705727218703
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268001,
+        "APN": "50620016",
+        "FLOOR": 1,
+        "APN_DASH": "506-20-016",
+        "BOOK": "506",
+        "MAP": "20",
+        "ITEM": "016",
+        "PUC": "0014",
+        "OWNER_NAME": "VIDLER WATER COMPANY INC",
+        "MAIL_ADDR1": "3480 GS RICHARDS BLVD STE 101",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "CARSON CITY",
+        "MAIL_STATE": "NV",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "89703",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "3480 GS RICHARDS BLVD STE 101 CARSON CITY NV USA 89703",
+        "DEED_NUMBER": "20160195878",
+        "DEED_DATE": 1458864000000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6969600,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "7 2N 10W",
+        "CITY_ZONING": "RU-190",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     154,600",
+        "LPV_CUR": "      56,539",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     106,000",
+        "LPV_PREV": "      53,847",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3866.01925561399,
+        "Shape_Area": 934126.3045171506,
+        "LONGITUDE": -113.32216769879905,
+        "LATITUDE": 33.53343840879112
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.31784439551375,
+              33.53707355347398
+            ],
+            [
+              -113.31782904779712,
+              33.52981943406396
+            ],
+            [
+              -113.3178590515276,
+              33.52981937865024
+            ],
+            [
+              -113.32649064329249,
+              33.529803172378244
+            ],
+            [
+              -113.32650671505122,
+              33.53705727218703
+            ],
+            [
+              -113.31784439551375,
+              33.53707355347398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268002,
+        "APN": "50620017A",
+        "FLOOR": 1,
+        "APN_DASH": "506-20-017A",
+        "BOOK": "506",
+        "MAP": "20",
+        "ITEM": "017A",
+        "PUC": "0014",
+        "OWNER_NAME": "VIDLER WATER CO INC",
+        "MAIL_ADDR1": "3480 GS RICHARDS BLVD STE 101",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "CARSON CITY",
+        "MAIL_STATE": "NV",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "89703",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "3480 GS RICHARDS BLVD STE 101 CARSON CITY NV USA 89703",
+        "DEED_NUMBER": "20150486100",
+        "DEED_DATE": 1436227200000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6916892,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "8 2N 10W",
+        "CITY_ZONING": "RU-190",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     106,200",
+        "LPV_CUR": "      36,145",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      67,800",
+        "LPV_PREV": "      34,424",
+        "LC_PREV": "2.R",
+        "Shape_Length": 4801.245301291365,
+        "Shape_Area": 928092.9652970546,
+        "LONGITUDE": -113.30921046290617,
+        "LATITUDE": 33.524395099294644
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.30059771673073,
+              33.526214331632985
+            ],
+            [
+              -113.30060882439922,
+              33.522587235085894
+            ],
+            [
+              -113.30068635709307,
+              33.52258718490979
+            ],
+            [
+              -113.30225784469829,
+              33.52258617689462
+            ],
+            [
+              -113.30480807016177,
+              33.52258449637004
+            ],
+            [
+              -113.31781374499624,
+              33.52257511044485
+            ],
+            [
+              -113.31781391298121,
+              33.52265486269264
+            ],
+            [
+              -113.31782140313405,
+              33.5262021760481
+            ],
+            [
+              -113.30062303125544,
+              33.52621431515795
+            ],
+            [
+              -113.30059771673073,
+              33.526214331632985
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268025,
+        "APN": "50620023B",
+        "FLOOR": 1,
+        "APN_DASH": "506-20-023B",
+        "BOOK": "506",
+        "MAP": "20",
+        "ITEM": "023B",
+        "PUC": "0014",
+        "OWNER_NAME": "VIDLER WATER CO INC",
+        "MAIL_ADDR1": "3480 GS RICHARDS BLVD STE 101",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "CARSON CITY",
+        "MAIL_STATE": "NV",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "89703",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "3480 GS RICHARDS BLVD STE 101 CARSON CITY NV USA 89703",
+        "DEED_NUMBER": "20150486100",
+        "DEED_DATE": 1436227200000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 5227200,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "17 2N 10W",
+        "CITY_ZONING": "RU-190",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     117,700",
+        "LPV_CUR": "      40,076",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      77,100",
+        "LPV_PREV": "      38,168",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3863.978194633638,
+        "Shape_Area": 701069.1946054683,
+        "LONGITUDE": -113.31130838901805,
+        "LATITUDE": 33.520766513941226
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.30480807016177,
+              33.52258449637004
+            ],
+            [
+              -113.30480292730674,
+              33.518958328297785
+            ],
+            [
+              -113.317807735267,
+              33.51894804101833
+            ],
+            [
+              -113.31781374499624,
+              33.52257511044485
+            ],
+            [
+              -113.30480807016177,
+              33.52258449637004
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

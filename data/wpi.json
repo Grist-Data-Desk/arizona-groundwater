@@ -1,0 +1,5599 @@
+{
+  "displayFieldName": "OWNER_NAME",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "APN": "APN",
+    "FLOOR": "Floor",
+    "APN_DASH": "Parcel Number",
+    "BOOK": "Book",
+    "MAP": "Map",
+    "ITEM": "Item",
+    "PUC": "PUC",
+    "OWNER_NAME": "Owner Name",
+    "MAIL_ADDR1": "Mailing Address1",
+    "MAIL_ADDR2": "Mailing Address2",
+    "MAIL_CITY": "Mailing Address City",
+    "MAIL_STATE": "Mailing Address State",
+    "MAIL_CNTRY": "Mailing Address Country",
+    "MAIL_ZIP": "Mailing Address Zip Code",
+    "PHYSICAL_STREET_NUM": "Property Street Number",
+    "PHYSICAL_STREET_DIR": "Property Street Direction",
+    "PHYSICAL_STREET_NAME": "Property Street Name",
+    "PHYSICAL_STREET_TYPE": "Property Street Type",
+    "PHYSICAL_STREET_SUFFIX": "Property Street Suffix",
+    "PHYSICAL_STREET_POSTDIR": "Property Street Post Direction",
+    "PHYSICAL_SUITE": "Property Suite",
+    "PHYSICAL_CITY": "Property City",
+    "PHYSICAL_ZIP": "Property Zip Code",
+    "PHYSICAL_ADDRESS": "Property Address",
+    "MAIL_ADDRESS": "Mailing Address",
+    "DEED_NUMBER": "Deed Number",
+    "DEED_DATE": "Deed Date",
+    "SALE_DATE": "Sale Date",
+    "SALE_PRICE": "Sale Price",
+    "MCRNUM": "MCR",
+    "MCR_BOOK": "MCR BOOK",
+    "MCR_PAGE": "MCR PAGE",
+    "SUBNAME": "Subdivision Name",
+    "LAND_SIZE": "Land Size",
+    "LOT_NUM": "Lot Number",
+    "BLOCK": "BLOCK",
+    "TRACT": "TRACT",
+    "STR": "Section Township Range",
+    "CITY_ZONING": "Zoning",
+    "JURISDICTION": "Jurisdiction",
+    "CONST_YEAR": "Construction Year",
+    "LIVING_SPACE": "Living Space Size",
+    "INCAREOF": "In Care Of",
+    "TAX_YR_CUR": "Current Tax Year",
+    "FCV_CUR": "Current Full Cash Value",
+    "LPV_CUR": "Current Limited Property Value",
+    "LC_CUR": "Current Tax Year Legal Class",
+    "TAX_YR_PREV": "Previous Tax Year",
+    "FCV_PREV": "Previous Full Cash Value",
+    "LPV_PREV": "Previous Limited Property Value",
+    "LC_PREV": "Previous Tax Year Legal Class",
+    "Shape_Length": "Shape_Length",
+    "Shape_Area": "Shape_Area",
+    "LONGITUDE": "Longitude",
+    "LATITUDE": "Latitude"
+  },
+  "geometryType": "esriGeometryPolygon",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+    },
+    {
+      "name": "APN",
+      "type": "esriFieldTypeString",
+      "alias": "APN",
+      "length": 50,
+      "domain": null
+    },
+    {
+      "name": "FLOOR",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Floor",
+      "domain": null
+    },
+    {
+      "name": "APN_DASH",
+      "type": "esriFieldTypeString",
+      "alias": "Parcel Number",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "BOOK",
+      "type": "esriFieldTypeString",
+      "alias": "Book",
+      "length": 3,
+      "domain": null
+    },
+    {
+      "name": "MAP",
+      "type": "esriFieldTypeString",
+      "alias": "Map",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "ITEM",
+      "type": "esriFieldTypeString",
+      "alias": "Item",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "PUC",
+      "type": "esriFieldTypeString",
+      "alias": "PUC",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "OWNER_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Owner Name",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDR1",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address1",
+      "length": 140,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDR2",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address2",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_CITY",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address City",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_STATE",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address State",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "MAIL_CNTRY",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address Country",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ZIP",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address Zip Code",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_NUM",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Number",
+      "length": 6,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_DIR",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Direction",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Name",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_TYPE",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Type",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_SUFFIX",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Suffix",
+      "length": 24,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_POSTDIR",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Post Direction",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_SUITE",
+      "type": "esriFieldTypeString",
+      "alias": "Property Suite",
+      "length": 7,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_CITY",
+      "type": "esriFieldTypeString",
+      "alias": "Property City",
+      "length": 30,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_ZIP",
+      "type": "esriFieldTypeString",
+      "alias": "Property Zip Code",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_ADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "Property Address",
+      "length": 256,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address",
+      "length": 256,
+      "domain": null
+    },
+    {
+      "name": "DEED_NUMBER",
+      "type": "esriFieldTypeString",
+      "alias": "Deed Number",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "DEED_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "Deed Date",
+      "length": 8,
+      "domain": null
+    },
+    {
+      "name": "SALE_DATE",
+      "type": "esriFieldTypeString",
+      "alias": "Sale Date",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "SALE_PRICE",
+      "type": "esriFieldTypeString",
+      "alias": "Sale Price",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "MCRNUM",
+      "type": "esriFieldTypeString",
+      "alias": "MCR",
+      "length": 7,
+      "domain": null
+    },
+    {
+      "name": "MCR_BOOK",
+      "type": "esriFieldTypeString",
+      "alias": "MCR BOOK",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "MCR_PAGE",
+      "type": "esriFieldTypeString",
+      "alias": "MCR PAGE",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "SUBNAME",
+      "type": "esriFieldTypeString",
+      "alias": "Subdivision Name",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "LAND_SIZE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Land Size",
+      "domain": null
+    },
+    {
+      "name": "LOT_NUM",
+      "type": "esriFieldTypeString",
+      "alias": "Lot Number",
+      "length": 6,
+      "domain": null
+    },
+    {
+      "name": "BLOCK",
+      "type": "esriFieldTypeString",
+      "alias": "Block",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "TRACT",
+      "type": "esriFieldTypeString",
+      "alias": "Tract",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "STR",
+      "type": "esriFieldTypeString",
+      "alias": "Section Township Range",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "CITY_ZONING",
+      "type": "esriFieldTypeString",
+      "alias": "Zoning",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "JURISDICTION",
+      "type": "esriFieldTypeString",
+      "alias": "Jurisdiction",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "CONST_YEAR",
+      "type": "esriFieldTypeString",
+      "alias": "Construction Year",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "LIVING_SPACE",
+      "type": "esriFieldTypeString",
+      "alias": "Living Space Size",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "INCAREOF",
+      "type": "esriFieldTypeString",
+      "alias": "In Care Of",
+      "length": 45,
+      "domain": null
+    },
+    {
+      "name": "TAX_YR_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Tax Year",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "FCV_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Full Cash Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LPV_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Limited Property Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LC_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Tax Year Legal Class",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "TAX_YR_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Tax Year",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "FCV_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Full Cash Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LPV_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Limited Property Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LC_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Tax Year Legal Class",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "Shape_Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Length",
+      "domain": null
+    },
+    {
+      "name": "Shape_Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Area",
+      "domain": null
+    },
+    {
+      "name": "LONGITUDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Longitude",
+      "domain": null
+    },
+    {
+      "name": "LATITUDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Latitude",
+      "domain": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 123366,
+        "APN": "40157110E",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-110E",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "110E",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 181559,
+        "LOT_NUM": "11",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      31,300",
+        "LPV_CUR": "       5,093",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      14,700",
+        "LPV_PREV": "       4,851",
+        "LC_PREV": "2.R",
+        "Shape_Length": 781.6849815788242,
+        "Shape_Area": 22459.0787639713,
+        "LONGITUDE": -113.19311058102853,
+        "LATITUDE": 33.33895889326496
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.19253932179666,
+              33.339228401832344
+            ],
+            [
+              -113.19174891034785,
+              33.33922833353863
+            ],
+            [
+              -113.19179334641169,
+              33.33863437183577
+            ],
+            [
+              -113.19207507245783,
+              33.33864306996573
+            ],
+            [
+              -113.19429421933174,
+              33.33871156752105
+            ],
+            [
+              -113.19429418429746,
+              33.33888205506144
+            ],
+            [
+              -113.19462156811623,
+              33.33889204174697
+            ],
+            [
+              -113.1946215016409,
+              33.33922855718184
+            ],
+            [
+              -113.19253932179666,
+              33.339228401832344
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 124723,
+        "APN": "40157115",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-115",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "115",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 405849,
+        "LOT_NUM": "16",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      52,100",
+        "LPV_CUR": "       9,245",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      24,100",
+        "LPV_PREV": "       8,805",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1160.2287625308593,
+        "Shape_Area": 53924.687610056295,
+        "LONGITUDE": -113.1883716843408,
+        "LATITUDE": 33.34250127792538
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18628804275252,
+              33.34293725390297
+            ],
+            [
+              -113.18628838770559,
+              33.34206483113583
+            ],
+            [
+              -113.18837063941506,
+              33.34206509004319
+            ],
+            [
+              -113.1904556246979,
+              33.342065314429604
+            ],
+            [
+              -113.19045468326351,
+              33.342937736441485
+            ],
+            [
+              -113.18628804275252,
+              33.34293725390297
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 124754,
+        "APN": "40157116",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-116",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "116",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 405849,
+        "LOT_NUM": "17",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      52,100",
+        "LPV_CUR": "       9,245",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      24,100",
+        "LPV_PREV": "       8,805",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1160.0983624566074,
+        "Shape_Area": 53918.063339071385,
+        "LONGITUDE": -113.18837104054836,
+        "LATITUDE": 33.34337369609093
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18628769779946,
+              33.34380967768569
+            ],
+            [
+              -113.18628804275252,
+              33.34293725390297
+            ],
+            [
+              -113.19045468326351,
+              33.342937736441485
+            ],
+            [
+              -113.19045374182907,
+              33.34381015796803
+            ],
+            [
+              -113.18628769779946,
+              33.34380967768569
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 124777,
+        "APN": "40157117",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-117",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "117",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 405849,
+        "LOT_NUM": "18",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      52,100",
+        "LPV_CUR": "       9,245",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      24,100",
+        "LPV_PREV": "       8,805",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1159.9676622912582,
+        "Shape_Area": 53910.830967763366,
+        "LONGITUDE": -113.18837039869969,
+        "LATITUDE": 33.34424611831376
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18628735374469,
+              33.3446820994818
+            ],
+            [
+              -113.18628769779946,
+              33.34380967768569
+            ],
+            [
+              -113.19045374182907,
+              33.34381015796803
+            ],
+            [
+              -113.19045280129298,
+              33.344682579759386
+            ],
+            [
+              -113.18628735374469,
+              33.3446820994818
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 124787,
+        "APN": "40157118",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-118",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "118",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 405849,
+        "LOT_NUM": "19",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      52,100",
+        "LPV_CUR": "       9,245",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      24,100",
+        "LPV_PREV": "       8,805",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1159.837162343401,
+        "Shape_Area": 53903.66220446325,
+        "LONGITUDE": -113.18836975558254,
+        "LATITUDE": 33.345118540222394
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18628700968995,
+              33.3455545222927
+            ],
+            [
+              -113.18628735374469,
+              33.3446820994818
+            ],
+            [
+              -113.19045280129298,
+              33.344682579759386
+            ],
+            [
+              -113.19045185985857,
+              33.34555500106459
+            ],
+            [
+              -113.18628700968995,
+              33.3455545222927
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 124931,
+        "APN": "40157119",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-119",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "119",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 405849,
+        "LOT_NUM": "20",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      52,100",
+        "LPV_CUR": "       9,245",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      24,100",
+        "LPV_PREV": "       8,805",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1159.7066622176158,
+        "Shape_Area": 53896.4932750518,
+        "LONGITUDE": -113.18836911306252,
+        "LATITUDE": 33.34599096242666
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.1862866656352,
+              33.346426945367625
+            ],
+            [
+              -113.18628700968995,
+              33.3455545222927
+            ],
+            [
+              -113.19045185985857,
+              33.34555500106459
+            ],
+            [
+              -113.19045091932246,
+              33.34642742263391
+            ],
+            [
+              -113.1862866656352,
+              33.346426945367625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 124960,
+        "APN": "40157120",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-120",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "120",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 405849,
+        "LOT_NUM": "21",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      52,100",
+        "LPV_CUR": "       9,245",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      24,100",
+        "LPV_PREV": "       8,805",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1159.575962043454,
+        "Shape_Area": 53889.26046362352,
+        "LONGITUDE": -113.1883684715147,
+        "LATITUDE": 33.34686338431632
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18628632247876,
+              33.34729936720532
+            ],
+            [
+              -113.1862866656352,
+              33.346426945367625
+            ],
+            [
+              -113.19045091932246,
+              33.34642742263391
+            ],
+            [
+              -113.19044997968467,
+              33.34729984371635
+            ],
+            [
+              -113.18628632247876,
+              33.34729936720532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 300395,
+        "APN": "16203102",
+        "FLOOR": 1,
+        "APN_DASH": "162-03-102",
+        "BOOK": "162",
+        "MAP": "03",
+        "ITEM": "102",
+        "PUC": "8540",
+        "OWNER_NAME": "WPI 5625 LLC",
+        "MAIL_ADDR1": "1102 E MISSOURI AVE A",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "PHOENIX",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "850142784",
+        "PHYSICAL_STREET_NUM": "5625",
+        "PHYSICAL_STREET_DIR": "N",
+        "PHYSICAL_STREET_NAME": "PALACIO",
+        "PHYSICAL_STREET_TYPE": "PL",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "PHOENIX",
+        "PHYSICAL_ZIP": "85014",
+        "PHYSICAL_ADDRESS": "5625 N PALACIO PL   PHOENIX  85014",
+        "MAIL_ADDRESS": "1102 E MISSOURI AVE A PHOENIX AZ USA 850142784",
+        "DEED_NUMBER": "20150046278",
+        "DEED_DATE": 1421971200000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": "151-20",
+        "MCR_BOOK": "151",
+        "MCR_PAGE": "20",
+        "SUBNAME": "PALACIO DEL SOL",
+        "LAND_SIZE": 3293,
+        "LOT_NUM": "33",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 2N 3E",
+        "CITY_ZONING": "PAD-10",
+        "JURISDICTION": "PHOENIX",
+        "CONST_YEAR": "1973",
+        "LIVING_SPACE": "   1,335",
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     417,800",
+        "LPV_CUR": "     241,889",
+        "LC_CUR": "4.1",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     338,200",
+        "LPV_PREV": "     230,371",
+        "LC_PREV": "4.1",
+        "Shape_Length": 89.98184011599616,
+        "Shape_Area": 425.8472221715939,
+        "LONGITUDE": -112.05555421090762,
+        "LATITUDE": 33.5194058892015
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -112.05541300278507,
+              33.519359733452845
+            ],
+            [
+              -112.05541299649687,
+              33.51935595437817
+            ],
+            [
+              -112.05569558851894,
+              33.519354434060716
+            ],
+            [
+              -112.05569493095216,
+              33.51945629676763
+            ],
+            [
+              -112.05555486293811,
+              33.51945662479635
+            ],
+            [
+              -112.05541233713345,
+              33.519456784317185
+            ],
+            [
+              -112.05541300278507,
+              33.519359733452845
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049789,
+        "APN": "40156006",
+        "FLOOR": 1,
+        "APN_DASH": "401-56-006",
+        "BOOK": "401",
+        "MAP": "56",
+        "ITEM": "006",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI II-HARQ III FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": "51311",
+        "PHYSICAL_STREET_DIR": "W",
+        "PHYSICAL_STREET_NAME": "DOBBINS",
+        "PHYSICAL_STREET_TYPE": "RD",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "51311 W DOBBINS RD   TONOPAH  85354",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20100327801",
+        "DEED_DATE": 1271635200000,
+        "SALE_DATE": "04/01/2010",
+        "SALE_PRICE": "94350000",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13939200,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "11 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     540,800",
+        "LPV_CUR": "     359,659",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     512,000",
+        "LPV_PREV": "     342,533",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5788.283647786112,
+        "Shape_Area": 1856442.016660549,
+        "LONGITUDE": -113.15588670947557,
+        "LATITUDE": 33.355572422164336
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.15157725156523,
+              33.36283136342026
+            ],
+            [
+              -113.15157533186546,
+              33.34831640096557
+            ],
+            [
+              -113.15588986022505,
+              33.348317212900916
+            ],
+            [
+              -113.16020438499135,
+              33.3483178747558
+            ],
+            [
+              -113.16018978377473,
+              33.362833246616105
+            ],
+            [
+              -113.15157725156523,
+              33.36283136342026
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049814,
+        "APN": "40156024",
+        "FLOOR": 1,
+        "APN_DASH": "401-56-024",
+        "BOOK": "401",
+        "MAP": "56",
+        "ITEM": "024",
+        "PUC": "4117",
+        "OWNER_NAME": "WPI II-HARQ III FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": "9554",
+        "PHYSICAL_STREET_DIR": "S",
+        "PHYSICAL_STREET_NAME": "HARQUAHALA VALLEY",
+        "PHYSICAL_STREET_TYPE": "RD",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "9554 S HARQUAHALA VALLEY RD   TONOPAH  85354",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20090163458",
+        "DEED_DATE": 1626393600000,
+        "SALE_DATE": "06/01/2021",
+        "SALE_PRICE": "6850000",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13939200,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "10 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "1936",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     632,351",
+        "LPV_CUR": "     386,001",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     589,700",
+        "LPV_PREV": "     367,620",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5795.235666151917,
+        "Shape_Area": 1863236.725960189,
+        "LONGITUDE": -113.16452345231583,
+        "LATITUDE": 33.35557976883098
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.16018978377473,
+              33.362833246616105
+            ],
+            [
+              -113.16020438499135,
+              33.3483178747558
+            ],
+            [
+              -113.16877428405576,
+              33.3483259543375
+            ],
+            [
+              -113.16885516656731,
+              33.34832602787688
+            ],
+            [
+              -113.16885497432784,
+              33.348504645947266
+            ],
+            [
+              -113.16885323159619,
+              33.350130930749444
+            ],
+            [
+              -113.16885322261302,
+              33.35013968926279
+            ],
+            [
+              -113.16885004257695,
+              33.35556641536575
+            ],
+            [
+              -113.16885003000051,
+              33.35558789084042
+            ],
+            [
+              -113.1688500291022,
+              33.355589705161705
+            ],
+            [
+              -113.16884582678328,
+              33.362792065390636
+            ],
+            [
+              -113.16884579803722,
+              33.36283867562186
+            ],
+            [
+              -113.16018978377473,
+              33.362833246616105
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049869,
+        "APN": "40157009D",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-009D",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "009D",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 328878,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      96,600",
+        "LPV_CUR": "       7,637",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      42,600",
+        "LPV_PREV": "       7,274",
+        "LC_PREV": "2.R",
+        "Shape_Length": 907.4643563906711,
+        "Shape_Area": 43756.00846465191,
+        "LONGITUDE": -113.1906807785849,
+        "LATITUDE": 33.338077689234694
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.19179334641169,
+              33.33863437183577
+            ],
+            [
+              -113.19113875664057,
+              33.33861415749852
+            ],
+            [
+              -113.19045729466603,
+              33.33859311011688
+            ],
+            [
+              -113.18924937322261,
+              33.338555793685956
+            ],
+            [
+              -113.18924998677194,
+              33.33755272371301
+            ],
+            [
+              -113.19207457209622,
+              33.33755781056876
+            ],
+            [
+              -113.19207507245783,
+              33.33864306996573
+            ],
+            [
+              -113.19179334641169,
+              33.33863437183577
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049870,
+        "APN": "40157009E",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-009E",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "009E",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 303891,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      91,900",
+        "LPV_CUR": "       7,237",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      40,600",
+        "LPV_PREV": "       6,893",
+        "LC_PREV": "2.R",
+        "Shape_Length": 943.6655500666232,
+        "Shape_Area": 43924.03640455067,
+        "LONGITUDE": -113.18772852478399,
+        "LATITUDE": 33.33802935870857
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18776302704171,
+              33.33850985939875
+            ],
+            [
+              -113.18628981333195,
+              33.338464313839765
+            ],
+            [
+              -113.1861588605231,
+              33.33846026345991
+            ],
+            [
+              -113.1861592252391,
+              33.337547082241045
+            ],
+            [
+              -113.18924998677194,
+              33.33755272371301
+            ],
+            [
+              -113.18924937322261,
+              33.338555793685956
+            ],
+            [
+              -113.18776302704171,
+              33.33850985939875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049871,
+        "APN": "40157009F",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-009F",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "009F",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 101059,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      45,900",
+        "LPV_CUR": "       3,082",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      20,700",
+        "LPV_PREV": "       2,936",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2258.299756450858,
+        "Shape_Area": 13488.562637745388,
+        "LONGITUDE": -113.19048056699995,
+        "LATITUDE": 33.33750960300006
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.19469362557841,
+              33.33872389123651
+            ],
+            [
+              -113.19469385375052,
+              33.33756246889156
+            ],
+            [
+              -113.19207457209622,
+              33.33755781056876
+            ],
+            [
+              -113.18924998677194,
+              33.33755272371301
+            ],
+            [
+              -113.1861592252391,
+              33.337547082241045
+            ],
+            [
+              -113.18615926207003,
+              33.33745640136404
+            ],
+            [
+              -113.18618544167235,
+              33.337456449395745
+            ],
+            [
+              -113.18832062840656,
+              33.33746035347561
+            ],
+            [
+              -113.18886074047111,
+              33.337461335124225
+            ],
+            [
+              -113.1894008525357,
+              33.33746231377089
+            ],
+            [
+              -113.1899409654986,
+              33.337463290916524
+            ],
+            [
+              -113.19048107756316,
+              33.33746426581069
+            ],
+            [
+              -113.19393598736612,
+              33.337470443892556
+            ],
+            [
+              -113.19480190760446,
+              33.33747197715552
+            ],
+            [
+              -113.19480166326271,
+              33.33872722489094
+            ],
+            [
+              -113.19469362557841,
+              33.33872389123651
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049872,
+        "APN": "40157009G",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-009G",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "009G",
+        "PUC": "0012",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 329314,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      96,700",
+        "LPV_CUR": "       7,102",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      42,700",
+        "LPV_PREV": "       6,764",
+        "LC_PREV": "2.R",
+        "Shape_Length": 882.6345374811942,
+        "Shape_Area": 43637.4574604895,
+        "LONGITUDE": -113.19339908078359,
+        "LATITUDE": 33.33812202630937
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.1946216022522,
+              33.33872166905034
+            ],
+            [
+              -113.19429421933174,
+              33.33871156752105
+            ],
+            [
+              -113.19207507245783,
+              33.33864306996573
+            ],
+            [
+              -113.19207457209622,
+              33.33755781056876
+            ],
+            [
+              -113.19469385375052,
+              33.33756246889156
+            ],
+            [
+              -113.19469362557841,
+              33.33872389123651
+            ],
+            [
+              -113.1946216022522,
+              33.33872166905034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049881,
+        "APN": "40157100",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-100",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "100",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 405849,
+        "LOT_NUM": "1",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      52,100",
+        "LPV_CUR": "       9,245",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      24,100",
+        "LPV_PREV": "       8,805",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1160.5778062271304,
+        "Shape_Area": 54089.371492819875,
+        "LONGITUDE": -113.19253043485209,
+        "LATITUDE": 33.34773776253897
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.190449034657,
+              33.348177171951136
+            ],
+            [
+              -113.19044997968467,
+              33.34729984371635
+            ],
+            [
+              -113.19253226103852,
+              33.3473000290679
+            ],
+            [
+              -113.19461472744536,
+              33.34730018065095
+            ],
+            [
+              -113.19461382823174,
+              33.34817383190481
+            ],
+            [
+              -113.190449034657,
+              33.348177171951136
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049884,
+        "APN": "40157104A",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-104A",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "104A",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 201944,
+        "LOT_NUM": "5",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      33,500",
+        "LPV_CUR": "       5,493",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      15,700",
+        "LPV_PREV": "       5,232",
+        "LC_PREV": "2.R",
+        "Shape_Length": 696.1112899650813,
+        "Shape_Area": 26947.975026413787,
+        "LONGITUDE": -113.1935767242085,
+        "LATITUDE": 33.3442466335514
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.19253511408787,
+              33.344682767367786
+            ],
+            [
+              -113.19253603396272,
+              33.34381034632877
+            ],
+            [
+              -113.19461832429973,
+              33.34381049866834
+            ],
+            [
+              -113.19461742508614,
+              33.34468291895538
+            ],
+            [
+              -113.19253511408787,
+              33.344682767367786
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049885,
+        "APN": "40157104B",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-104B",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "104B",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 201944,
+        "LOT_NUM": "5",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      33,500",
+        "LPV_CUR": "       5,493",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      15,700",
+        "LPV_PREV": "       5,232",
+        "LC_PREV": "2.R",
+        "Shape_Length": 696.1118949575355,
+        "Shape_Area": 26948.0220014566,
+        "LONGITUDE": -113.19149442264238,
+        "LATITUDE": 33.34424646357732
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.19045280129298,
+              33.344682579759386
+            ],
+            [
+              -113.19045374182907,
+              33.34381015796803
+            ],
+            [
+              -113.19253603396272,
+              33.34381034632877
+            ],
+            [
+              -113.19253511408787,
+              33.344682767367786
+            ],
+            [
+              -113.19045280129298,
+              33.344682579759386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049887,
+        "APN": "40157106",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-106",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "106",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 405849,
+        "LOT_NUM": "7",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      52,100",
+        "LPV_CUR": "       9,245",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      24,100",
+        "LPV_PREV": "       8,805",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1159.6899949215483,
+        "Shape_Area": 53893.31649149651,
+        "LONGITUDE": -113.19253741346824,
+        "LATITUDE": 33.34250170157515
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.19045468326351,
+              33.342937736441485
+            ],
+            [
+              -113.1904556246979,
+              33.342065314429604
+            ],
+            [
+              -113.19253787461074,
+              33.34206550354459
+            ],
+            [
+              -113.19462012362526,
+              33.342065656637686
+            ],
+            [
+              -113.19461922351331,
+              33.342938077895674
+            ],
+            [
+              -113.19045468326351,
+              33.342937736441485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049891,
+        "APN": "40157110B",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-110B",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "110B",
+        "PUC": "8800",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 6186,
+        "LOT_NUM": "11",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "       1,209",
+        "LPV_CUR": "         402",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "         662",
+        "LPV_PREV": "         383",
+        "LC_PREV": "2.R",
+        "Shape_Length": 118.35613434745866,
+        "Shape_Area": 827.6281104848744,
+        "LONGITUDE": -113.19445787511125,
+        "LATITUDE": 33.33880183281877
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.19429418429746,
+              33.33888205506144
+            ],
+            [
+              -113.19429421933174,
+              33.33871156752105
+            ],
+            [
+              -113.1946216022522,
+              33.33872166905034
+            ],
+            [
+              -113.19462156811623,
+              33.33889204174697
+            ],
+            [
+              -113.19429418429746,
+              33.33888205506144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049895,
+        "APN": "40157122",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-122",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "122",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 401972,
+        "LOT_NUM": "23",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      51,800",
+        "LPV_CUR": "       9,112",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      23,900",
+        "LPV_PREV": "       8,679",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1158.0905079123372,
+        "Shape_Area": 53679.73474985697,
+        "LONGITUDE": -113.18550411902476,
+        "LATITUDE": 33.34644326216925
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18498283915372,
+              33.3481814259888
+            ],
+            [
+              -113.18498426028849,
+              33.34470552201471
+            ],
+            [
+              -113.18602541848257,
+              33.344705478489566
+            ],
+            [
+              -113.1860240386703,
+              33.348180576531995
+            ],
+            [
+              -113.18498283915372,
+              33.3481814259888
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049896,
+        "APN": "40157123",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-123",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "123",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 401972,
+        "LOT_NUM": "24",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      51,800",
+        "LPV_CUR": "       9,112",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      23,900",
+        "LPV_PREV": "       8,679",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1158.3052099237805,
+        "Shape_Area": 53692.17688488891,
+        "LONGITUDE": -113.18446294019267,
+        "LATITUDE": 33.34644370472046
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18394163963713,
+              33.34818226719112
+            ],
+            [
+              -113.18394310209443,
+              33.34470555803551
+            ],
+            [
+              -113.18498426028849,
+              33.34470552201471
+            ],
+            [
+              -113.18498283915372,
+              33.3481814259888
+            ],
+            [
+              -113.18394163963713,
+              33.34818226719112
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049897,
+        "APN": "40157124",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-124",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "124",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 401972,
+        "LOT_NUM": "25",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      51,800",
+        "LPV_CUR": "       9,112",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      23,900",
+        "LPV_PREV": "       8,679",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1158.5200118450218,
+        "Shape_Area": 53704.65961200141,
+        "LONGITUDE": -113.18342176089267,
+        "LATITUDE": 33.34644413845408
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18290043922225,
+              33.3481830986382
+            ],
+            [
+              -113.18290194300204,
+              33.34470558430068
+            ],
+            [
+              -113.18394310209443,
+              33.34470555803551
+            ],
+            [
+              -113.18394163963713,
+              33.34818226719112
+            ],
+            [
+              -113.18290043922225,
+              33.3481830986382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049898,
+        "APN": "40157125",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-125",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "125",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 401972,
+        "LOT_NUM": "26",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      51,800",
+        "LPV_CUR": "       9,112",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      23,900",
+        "LPV_PREV": "       8,679",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1158.7343141593378,
+        "Shape_Area": 53717.043836653545,
+        "LONGITUDE": -113.18238058161123,
+        "LATITUDE": 33.34644456387052
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18185923880735,
+              33.34818392183085
+            ],
+            [
+              -113.18186078570628,
+              33.344705603061506
+            ],
+            [
+              -113.18290194300204,
+              33.34470558430068
+            ],
+            [
+              -113.18290043922225,
+              33.3481830986382
+            ],
+            [
+              -113.18185923880735,
+              33.34818392183085
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049899,
+        "APN": "40157126",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-126",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "126",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 401972,
+        "LOT_NUM": "27",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      51,800",
+        "LPV_CUR": "       9,112",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      23,900",
+        "LPV_PREV": "       8,679",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1158.9491165246538,
+        "Shape_Area": 53729.54518519737,
+        "LONGITUDE": -113.18133940207179,
+        "LATITUDE": 33.346444979867556
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.18081803749415,
+              33.348184736018624
+            ],
+            [
+              -113.18081962661388,
+              33.34470561206668
+            ],
+            [
+              -113.18184265770383,
+              33.344705603061506
+            ],
+            [
+              -113.18186078570628,
+              33.344705603061506
+            ],
+            [
+              -113.18185923880735,
+              33.34818392183085
+            ],
+            [
+              -113.18081803749415,
+              33.348184736018624
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049900,
+        "APN": "40157127",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-127",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "127",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 401972,
+        "LOT_NUM": "28",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      51,800",
+        "LPV_CUR": "       9,112",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      23,900",
+        "LPV_PREV": "       8,679",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1159.163618983782,
+        "Shape_Area": 53741.97457680716,
+        "LONGITUDE": -113.1802982218886,
+        "LATITUDE": 33.3464453870632
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.17977683707923,
+              33.34818554195197
+            ],
+            [
+              -113.17977846662316,
+              33.34470561356758
+            ],
+            [
+              -113.18081962661388,
+              33.34470561206668
+            ],
+            [
+              -113.18081803749415,
+              33.348184736018624
+            ],
+            [
+              -113.17977683707923,
+              33.34818554195197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049901,
+        "APN": "40157128",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-128",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "128",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 401972,
+        "LOT_NUM": "29",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      51,800",
+        "LPV_CUR": "       9,112",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      23,900",
+        "LPV_PREV": "       8,679",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1159.3784214629595,
+        "Shape_Area": 53754.45740769126,
+        "LONGITUDE": -113.17925704120348,
+        "LATITUDE": 33.34644578640261
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.1787356348677,
+              33.34818633888048
+            ],
+            [
+              -113.17873730663246,
+              33.34470560456239
+            ],
+            [
+              -113.17977846662316,
+              33.34470561356758
+            ],
+            [
+              -113.17977683707923,
+              33.34818554195197
+            ],
+            [
+              -113.1787356348677,
+              33.34818633888048
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1049902,
+        "APN": "40157129",
+        "FLOOR": 1,
+        "APN_DASH": "401-57-129",
+        "BOOK": "401",
+        "MAP": "57",
+        "ITEM": "129",
+        "PUC": "0013",
+        "OWNER_NAME": "WPI II-HARQ II FARM AZ LLC",
+        "MAIL_ADDR1": "",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20200546981",
+        "DEED_DATE": 1592784000000,
+        "SALE_DATE": "04/01/2020",
+        "SALE_PRICE": "949801",
+        "MCRNUM": "103-30",
+        "MCR_BOOK": "103",
+        "MCR_PAGE": "30",
+        "SUBNAME": "EAGLE TAIL FARMS",
+        "LAND_SIZE": 401972,
+        "LOT_NUM": "30",
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "16 1S 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      51,800",
+        "LPV_CUR": "       9,112",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      23,900",
+        "LPV_PREV": "       8,679",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1160.048139116314,
+        "Shape_Area": 53872.37240994025,
+        "LONGITUDE": -113.17821483856105,
+        "LATITUDE": 33.346446644596945
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.17769154906412,
+              33.348187129055354
+            ],
+            [
+              -113.17769494559423,
+              33.34470558805286
+            ],
+            [
+              -113.17873730663246,
+              33.34470560456239
+            ],
+            [
+              -113.1787356348677,
+              33.34818633888048
+            ],
+            [
+              -113.17769154906412,
+              33.348187129055354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268393,
+        "APN": "50623037A",
+        "FLOOR": 1,
+        "APN_DASH": "506-23-037A",
+        "BOOK": "506",
+        "MAP": "23",
+        "ITEM": "037A",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038920",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13794145,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "36 2N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     535,172",
+        "LPV_CUR": "     221,491",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     506,672",
+        "LPV_PREV": "     210,944",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5761.182609010971,
+        "Shape_Area": 1848102.9954689713,
+        "LONGITUDE": -113.14027507611661,
+        "LATITUDE": 33.47193140159679
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13594488577199,
+              33.471860665280275
+            ],
+            [
+              -113.13594676235262,
+              33.464753542809454
+            ],
+            [
+              -113.14457619366922,
+              33.46474872193681
+            ],
+            [
+              -113.14461046080403,
+              33.46474870170307
+            ],
+            [
+              -113.14461023353027,
+              33.46641391992046
+            ],
+            [
+              -113.14460998649356,
+              33.468227558914606
+            ],
+            [
+              -113.14460980144064,
+              33.469596480131344
+            ],
+            [
+              -113.1446097412535,
+              33.47004119742474
+            ],
+            [
+              -113.14460949601342,
+              33.47185483544761
+            ],
+            [
+              -113.14459113444902,
+              33.47911307576503
+            ],
+            [
+              -113.14459113085576,
+              33.47911450462878
+            ],
+            [
+              -113.1359429876318,
+              33.479117509962954
+            ],
+            [
+              -113.13594488577199,
+              33.471860665280275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268394,
+        "APN": "50623038A",
+        "FLOOR": 1,
+        "APN_DASH": "506-23-038A",
+        "BOOK": "506",
+        "MAP": "23",
+        "ITEM": "038A",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038920",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13794145,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "36 2N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     535,172",
+        "LPV_CUR": "     221,491",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     506,672",
+        "LPV_PREV": "     210,944",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5763.454154462343,
+        "Shape_Area": 1849356.2312945824,
+        "LONGITUDE": -113.13161175509951,
+        "LATITUDE": 33.47193887816829
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12727558722305,
+              33.47912446995995
+            ],
+            [
+              -113.12727884361597,
+              33.47186589039862
+            ],
+            [
+              -113.12728218804376,
+              33.464758428879314
+            ],
+            [
+              -113.13594676235262,
+              33.464753542809454
+            ],
+            [
+              -113.13594488577199,
+              33.471860665280275
+            ],
+            [
+              -113.1359429876318,
+              33.479117509962954
+            ],
+            [
+              -113.12727558722305,
+              33.47912446995995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268726,
+        "APN": "50629015A",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-015A",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "015A",
+        "PUC": "0012",
+        "OWNER_NAME": "WPI HD3 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160336165",
+        "DEED_DATE": 1463443200000,
+        "SALE_DATE": "03/01/2016",
+        "SALE_PRICE": "982487",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 1702804,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "11 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     117,700",
+        "LPV_CUR": "      75,521",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      79,800",
+        "LPV_PREV": "      71,925",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2372.7022669822422,
+        "Shape_Area": 228501.46580618492,
+        "LONGITUDE": -113.1575323966371,
+        "LATITUDE": 33.446451271299175
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.15329044481327,
+              33.44735927793265
+            ],
+            [
+              -113.15329075473203,
+              33.445545636375265
+            ],
+            [
+              -113.15342187013596,
+              33.4455456026449
+            ],
+            [
+              -113.15617529990656,
+              33.44554486282594
+            ],
+            [
+              -113.16096101888716,
+              33.44554342966098
+            ],
+            [
+              -113.16174071792624,
+              33.44554317930685
+            ],
+            [
+              -113.16177349745094,
+              33.445543168812954
+            ],
+            [
+              -113.16177488534805,
+              33.447356805175126
+            ],
+            [
+              -113.15329044481327,
+              33.44735927793265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268727,
+        "APN": "50629015B",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-015B",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "015B",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI HD3 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": "51401",
+        "PHYSICAL_STREET_DIR": "W",
+        "PHYSICAL_STREET_NAME": "VAN BUREN",
+        "PHYSICAL_STREET_TYPE": "ST",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "51401 W VAN BUREN ST   TONOPAH  85354",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160336165",
+        "DEED_DATE": 1463443200000,
+        "SALE_DATE": "03/01/2016",
+        "SALE_PRICE": "982487",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 2559150,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "11 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     152,200",
+        "LPV_CUR": "      97,461",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     102,400",
+        "LPV_PREV": "      92,820",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2615.1551933507635,
+        "Shape_Area": 342853.8897744007,
+        "LONGITUDE": -113.15753306982378,
+        "LATITUDE": 33.448718338159644
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.15328998487584,
+              33.45007973849645
+            ],
+            [
+              -113.15329044481327,
+              33.44735927793265
+            ],
+            [
+              -113.16177488534805,
+              33.447356805175126
+            ],
+            [
+              -113.16177697033785,
+              33.45007725907071
+            ],
+            [
+              -113.15328998487584,
+              33.45007973849645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268728,
+        "APN": "50629015C",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-015C",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "015C",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI HD3 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160336165",
+        "DEED_DATE": 1463443200000,
+        "SALE_DATE": "03/01/2016",
+        "SALE_PRICE": "982487",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 3484800,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "11 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     184,900",
+        "LPV_CUR": "     118,298",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     123,600",
+        "LPV_PREV": "     112,665",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2901.0976128560715,
+        "Shape_Area": 466949.5427494433,
+        "LONGITUDE": -113.15112462375912,
+        "LATITUDE": 33.446451943240326
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.15329122185598,
+              33.44282190257752
+            ],
+            [
+              -113.15329075473203,
+              33.445545636375265
+            ],
+            [
+              -113.15329044481327,
+              33.44735927793265
+            ],
+            [
+              -113.15328998487584,
+              33.45007973849645
+            ],
+            [
+              -113.14895637899457,
+              33.450081319242734
+            ],
+            [
+              -113.14896102867448,
+              33.442822907023846
+            ],
+            [
+              -113.15329122185598,
+              33.44282190257752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268729,
+        "APN": "50629015D",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-015D",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "015D",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038926",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 3484800,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "11 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     135,200",
+        "LPV_CUR": "      55,955",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     128,000",
+        "LPV_PREV": "      53,291",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2901.2529054359366,
+        "Shape_Area": 466987.2826766835,
+        "LONGITUDE": -113.1467927229391,
+        "LATITUDE": 33.44645316032614
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.14896102867448,
+              33.442822907023846
+            ],
+            [
+              -113.14895637899457,
+              33.450081319242734
+            ],
+            [
+              -113.14462276862176,
+              33.450082749334626
+            ],
+            [
+              -113.14463083189975,
+              33.44282375930404
+            ],
+            [
+              -113.14896102867448,
+              33.442822907023846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268730,
+        "APN": "50629016A",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-016A",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "016A",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038923",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 3484800,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     135,200",
+        "LPV_CUR": "      55,955",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     128,000",
+        "LPV_PREV": "      53,291",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2910.411990934214,
+        "Shape_Area": 471374.32415321283,
+        "LONGITUDE": -113.14244067744475,
+        "LATITUDE": 33.44645449943991
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.14463083189975,
+              33.44282375930404
+            ],
+            [
+              -113.14462276862176,
+              33.450082749334626
+            ],
+            [
+              -113.14025039684272,
+              33.4500855697936
+            ],
+            [
+              -113.14025145685476,
+              33.449178746655555
+            ],
+            [
+              -113.14025678116946,
+              33.44463108191793
+            ],
+            [
+              -113.14025783309665,
+              33.44373250184112
+            ],
+            [
+              -113.14025889670195,
+              33.44282567824617
+            ],
+            [
+              -113.14463083189975,
+              33.44282375930404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268735,
+        "APN": "50629016K",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-016K",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "016K",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038925",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 430298,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      49,400",
+        "LPV_CUR": "      30,460",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      34,500",
+        "LPV_PREV": "      29,010",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1199.5025757861315,
+        "Shape_Area": 57923.796447523055,
+        "LONGITUDE": -113.13810051638613,
+        "LATITUDE": 33.4496334703129
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.1359495534182,
+              33.450088192378146
+            ],
+            [
+              -113.13595065834599,
+              33.44918136926752
+            ],
+            [
+              -113.14025145685476,
+              33.449178746655555
+            ],
+            [
+              -113.14025039684272,
+              33.4500855697936
+            ],
+            [
+              -113.1359495534182,
+              33.450088192378146
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268736,
+        "APN": "50629016L",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-016L",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "016L",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170891178",
+        "DEED_DATE": 1512086400000,
+        "SALE_DATE": "10/01/2017",
+        "SALE_PRICE": "250000",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 2149917,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     136,400",
+        "LPV_CUR": "      48,188",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      92,000",
+        "LPV_PREV": "      45,894",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2171.055287948598,
+        "Shape_Area": 290494.4805420742,
+        "LONGITUDE": -113.13810370610288,
+        "LATITUDE": 33.44690602447437
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13595065834599,
+              33.44918136926752
+            ],
+            [
+              -113.13595176596876,
+              33.44827278650034
+            ],
+            [
+              -113.13595398121423,
+              33.44645737935235
+            ],
+            [
+              -113.1359562072395,
+              33.44463282092302
+            ],
+            [
+              -113.14025678116946,
+              33.44463108191793
+            ],
+            [
+              -113.14025145685476,
+              33.449178746655555
+            ],
+            [
+              -113.13595065834599,
+              33.44918136926752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268752,
+        "APN": "50629025A",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-025A",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "025A",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD1 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE STE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE STE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20140826129",
+        "DEED_DATE": 1418688000000,
+        "SALE_DATE": "11/01/2014",
+        "SALE_PRICE": "3308395",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6824415,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "1 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     264,767",
+        "LPV_CUR": "     109,579",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     250,667",
+        "LPV_PREV": "     104,361",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3824.819194669272,
+        "Shape_Area": 914258.4403775141,
+        "LONGITUDE": -113.13161560651749,
+        "LATITUDE": 33.46090177104339
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12728230123149,
+              33.46445615374463
+            ],
+            [
+              -113.12728431884763,
+              33.457353174947706
+            ],
+            [
+              -113.13594816731771,
+              33.457346300889135
+            ],
+            [
+              -113.13594682972625,
+              33.4644512691565
+            ],
+            [
+              -113.12728230123149,
+              33.46445615374463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268754,
+        "APN": "50629025B",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-025B",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "025B",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD1 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE STE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE STE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20140826129",
+        "DEED_DATE": 1418688000000,
+        "SALE_DATE": "11/01/2014",
+        "SALE_PRICE": "3308395",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6969600,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "1 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     270,400",
+        "LPV_CUR": "     111,910",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     256,000",
+        "LPV_PREV": "     106,581",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3866.3632956864194,
+        "Shape_Area": 934287.8532841927,
+        "LONGITUDE": -113.1316165703127,
+        "LATITUDE": 33.45371939503962
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12728431884763,
+              33.457353174947706
+            ],
+            [
+              -113.12728639934582,
+              33.45008964120806
+            ],
+            [
+              -113.13161347267832,
+              33.4500889936193
+            ],
+            [
+              -113.1359495534182,
+              33.450088192378146
+            ],
+            [
+              -113.13594816731771,
+              33.457346300889135
+            ],
+            [
+              -113.12728431884763,
+              33.457353174947706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268755,
+        "APN": "50629026A",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-026A",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "026A",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD1 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE STE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE STE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20140826129",
+        "DEED_DATE": 1418688000000,
+        "SALE_DATE": "11/01/2014",
+        "SALE_PRICE": "3308395",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6969600,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "1 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     270,400",
+        "LPV_CUR": "     111,910",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     256,000",
+        "LPV_PREV": "     106,581",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3866.9998444475373,
+        "Shape_Area": 934597.3926937412,
+        "LONGITUDE": -113.14028407344965,
+        "LATITUDE": 33.45371370172987
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13594816731771,
+              33.457346300889135
+            ],
+            [
+              -113.1359495534182,
+              33.450088192378146
+            ],
+            [
+              -113.14025039684272,
+              33.4500855697936
+            ],
+            [
+              -113.14462276862176,
+              33.450082749334626
+            ],
+            [
+              -113.14461661785701,
+              33.457338816768505
+            ],
+            [
+              -113.13594816731771,
+              33.457346300889135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268756,
+        "APN": "50629026B",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-026B",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "026B",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038922",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6831079,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "1 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     277,300",
+        "LPV_CUR": "     172,982",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     182,800",
+        "LPV_PREV": "     164,745",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3825.8664805643375,
+        "Shape_Area": 914759.6733452771,
+        "LONGITUDE": -113.14028082462828,
+        "LATITUDE": 33.460895384470966
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13594682972625,
+              33.4644512691565
+            ],
+            [
+              -113.13594816731771,
+              33.457346300889135
+            ],
+            [
+              -113.14461661785701,
+              33.457338816768505
+            ],
+            [
+              -113.14461060992438,
+              33.46444642803329
+            ],
+            [
+              -113.13594682972625,
+              33.4644512691565
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268757,
+        "APN": "50629027A",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-027A",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "027A",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038921",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 3484800,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     182,100",
+        "LPV_CUR": "     114,329",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     121,700",
+        "LPV_PREV": "     108,885",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2900.370354495355,
+        "Shape_Area": 466503.39423180075,
+        "LONGITUDE": -113.12945036258574,
+        "LATITUDE": 33.44645957974812
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12728639934582,
+              33.45008964120806
+            ],
+            [
+              -113.12728687814788,
+              33.44644403201856
+            ],
+            [
+              -113.1272873560516,
+              33.44283046435754
+            ],
+            [
+              -113.13161406826136,
+              33.44282901840477
+            ],
+            [
+              -113.13161376822406,
+              33.44645872330517
+            ],
+            [
+              -113.13161361910372,
+              33.4482738583421
+            ],
+            [
+              -113.13161347267832,
+              33.4500889936193
+            ],
+            [
+              -113.12728639934582,
+              33.45008964120806
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268758,
+        "APN": "50629027D",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-027D",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "027D",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20210451125",
+        "DEED_DATE": 1619049600000,
+        "SALE_DATE": "02/01/2021",
+        "SALE_PRICE": "390864",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 1716277,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     118,300",
+        "LPV_CUR": "      75,852",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      80,200",
+        "LPV_PREV": "      72,240",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1935.2705329028545,
+        "Shape_Area": 234079.7930704027,
+        "LONGITUDE": -113.13378508309619,
+        "LATITUDE": 33.44464285117335
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13595841170522,
+              33.442827415038664
+            ],
+            [
+              -113.13595730498078,
+              33.44373424086423
+            ],
+            [
+              -113.1359562072395,
+              33.44463282092302
+            ],
+            [
+              -113.13595398121423,
+              33.44645737935235
+            ],
+            [
+              -113.13378308914243,
+              33.44645807119196
+            ],
+            [
+              -113.13161376822406,
+              33.44645872330517
+            ],
+            [
+              -113.13161406826136,
+              33.44282901840477
+            ],
+            [
+              -113.13595841170522,
+              33.442827415038664
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268759,
+        "APN": "50629027E",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-027E",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "027E",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038924",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 436489,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      49,900",
+        "LPV_CUR": "      30,460",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      34,800",
+        "LPV_PREV": "      29,010",
+        "LC_PREV": "2.R",
+        "Shape_Length": 966.6736412379571,
+        "Shape_Area": 58403.22514499091,
+        "LONGITUDE": -113.13269691033209,
+        "LATITUDE": 33.44736559187051
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13161361910372,
+              33.4482738583421
+            ],
+            [
+              -113.13161376822406,
+              33.44645872330517
+            ],
+            [
+              -113.13378308914243,
+              33.44645807119196
+            ],
+            [
+              -113.13377710815928,
+              33.448273343408324
+            ],
+            [
+              -113.13161361910372,
+              33.4482738583421
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268760,
+        "APN": "50629027F",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-027F",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "027F",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI-HD2 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20160038924",
+        "DEED_DATE": 1453248000000,
+        "SALE_DATE": "01/01/2016",
+        "SALE_PRICE": "7974418",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 436526,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      49,900",
+        "LPV_CUR": "      30,460",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      34,800",
+        "LPV_PREV": "      29,010",
+        "LC_PREV": "2.R",
+        "Shape_Length": 968.1282697699836,
+        "Shape_Area": 58579.328738295284,
+        "LONGITUDE": -113.13486649909545,
+        "LATITUDE": 33.44736565731822
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13377710815928,
+              33.448273343408324
+            ],
+            [
+              -113.13378308914243,
+              33.44645807119196
+            ],
+            [
+              -113.13595398121423,
+              33.44645737935235
+            ],
+            [
+              -113.13595176596876,
+              33.44827278650034
+            ],
+            [
+              -113.13377710815928,
+              33.448273343408324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268761,
+        "APN": "50629027G",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-027G",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "027G",
+        "PUC": "0014",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20210451125",
+        "DEED_DATE": 1619049600000,
+        "SALE_DATE": "02/01/2021",
+        "SALE_PRICE": "390864",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 872859,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      77,200",
+        "LPV_CUR": "      49,612",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      53,100",
+        "LPV_PREV": "      47,250",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1449.9852588121319,
+        "Shape_Area": 116928.63605678901,
+        "LONGITUDE": -113.13378215656604,
+        "LATITUDE": 33.449180890543495
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13161347267832,
+              33.4500889936193
+            ],
+            [
+              -113.13161361910372,
+              33.4482738583421
+            ],
+            [
+              -113.13377710815928,
+              33.448273343408324
+            ],
+            [
+              -113.13595176596876,
+              33.44827278650034
+            ],
+            [
+              -113.13595065834599,
+              33.44918136926752
+            ],
+            [
+              -113.1359495534182,
+              33.450088192378146
+            ],
+            [
+              -113.13161347267832,
+              33.4500889936193
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268765,
+        "APN": "50629031G",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-031G",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "031G",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170629444",
+        "DEED_DATE": 1503619200000,
+        "SALE_DATE": "02/01/2017",
+        "SALE_PRICE": "3402267",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 11805,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "         457",
+        "LPV_CUR": "         203",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "         434",
+        "LPV_PREV": "         194",
+        "LC_PREV": "2.R",
+        "Shape_Length": 289.11667061200484,
+        "Shape_Area": 1602.34106328209,
+        "LONGITUDE": -113.13221847717341,
+        "LATITUDE": 33.43552709159953
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13162341613021,
+              33.43557273182113
+            ],
+            [
+              -113.13162361645452,
+              33.43548204893089
+            ],
+            [
+              -113.13281346918431,
+              33.43548144996039
+            ],
+            [
+              -113.1328134098955,
+              33.435572132101534
+            ],
+            [
+              -113.13162341613021,
+              33.43557273182113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1482117,
+        "APN": "50629011A",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-011A",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "011A",
+        "PUC": "4115",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170629444",
+        "DEED_DATE": 1503619200000,
+        "SALE_DATE": "02/01/2017",
+        "SALE_PRICE": "3402267",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13969344,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "12 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "2006",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     551,758",
+        "LPV_CUR": "     230,648",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     522,007",
+        "LPV_PREV": "     219,665",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5796.293357427833,
+        "Shape_Area": 1868461.5795233948,
+        "LONGITUDE": -113.13595914633359,
+        "LATITUDE": 33.43919940981481
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12729140026701,
+              33.43557481884509
+            ],
+            [
+              -113.13162341613021,
+              33.43557273182113
+            ],
+            [
+              -113.1328134098955,
+              33.435572132101534
+            ],
+            [
+              -113.13367212474697,
+              33.43557169205735
+            ],
+            [
+              -113.13596728526359,
+              33.43557048737068
+            ],
+            [
+              -113.14030043659731,
+              33.43556923920433
+            ],
+            [
+              -113.14462677331129,
+              33.43556784110808
+            ],
+            [
+              -113.14462778481429,
+              33.437378741450644
+            ],
+            [
+              -113.14462879991056,
+              33.43919580184345
+            ],
+            [
+              -113.1446292957806,
+              33.440082220005735
+            ],
+            [
+              -113.14462981590516,
+              33.44101011362081
+            ],
+            [
+              -113.14463083189975,
+              33.44282375930404
+            ],
+            [
+              -113.14025889670195,
+              33.44282567824617
+            ],
+            [
+              -113.13942295234631,
+              33.4428260275536
+            ],
+            [
+              -113.13855804181433,
+              33.442826383607304
+            ],
+            [
+              -113.13595841170522,
+              33.442827415038664
+            ],
+            [
+              -113.13161406826136,
+              33.44282901840477
+            ],
+            [
+              -113.1272873560516,
+              33.44283046435754
+            ],
+            [
+              -113.12729140026701,
+              33.43557481884509
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1612183,
+        "APN": "50629013A",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-013A",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "013A",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20100327801",
+        "DEED_DATE": 1271635200000,
+        "SALE_DATE": "04/01/2010",
+        "SALE_PRICE": "94350000",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 20000,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "         775",
+        "LPV_CUR": "         322",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "         734",
+        "LPV_PREV": "         307",
+        "LC_PREV": "2.R",
+        "Shape_Length": 218.68190421283927,
+        "Shape_Area": 2641.4496403783837,
+        "LONGITUDE": -113.13613585240894,
+        "LATITUDE": 33.424683119851096
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13597417624014,
+              33.42440875848478
+            ],
+            [
+              -113.13629384083568,
+              33.42440561555011
+            ],
+            [
+              -113.13630152682124,
+              33.424955170049664
+            ],
+            [
+              -113.13597383577864,
+              33.42495839243707
+            ],
+            [
+              -113.13597400735685,
+              33.42468092480291
+            ],
+            [
+              -113.13597417624014,
+              33.42440875848478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1612190,
+        "APN": "50629012A",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-012A",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "012A",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170629444",
+        "DEED_DATE": 1503619200000,
+        "SALE_DATE": "02/01/2017",
+        "SALE_PRICE": "3402267",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 87120,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "       3,380",
+        "LPV_CUR": "       1,503",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "       3,200",
+        "LPV_PREV": "       1,432",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1952.122031991437,
+        "Shape_Area": 11665.577689329326,
+        "LONGITUDE": -113.14029703339054,
+        "LATITUDE": 33.43552384225673
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.14462673109045,
+              33.43547715896239
+            ],
+            [
+              -113.14462677331129,
+              33.43556784110808
+            ],
+            [
+              -113.14030043659731,
+              33.43556923920433
+            ],
+            [
+              -113.13596728526359,
+              33.43557048737068
+            ],
+            [
+              -113.13596734095913,
+              33.435479805227764
+            ],
+            [
+              -113.14462673109045,
+              33.43547715896239
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1612191,
+        "APN": "50629018B",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-018B",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "018B",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170629444",
+        "DEED_DATE": 1503619200000,
+        "SALE_DATE": "02/01/2017",
+        "SALE_PRICE": "3402267",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 886446,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      34,391",
+        "LPV_CUR": "      14,233",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      32,560",
+        "LPV_PREV": "      13,556",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1456.3363350369648,
+        "Shape_Area": 118225.57101063305,
+        "LONGITUDE": -113.13055138529093,
+        "LATITUDE": 33.422871539415574
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13165062610017,
+              33.421057119858666
+            ],
+            [
+              -113.13164735533422,
+              33.42468444035013
+            ],
+            [
+              -113.12945251956684,
+              33.4246861662596
+            ],
+            [
+              -113.12945504023953,
+              33.421058844340685
+            ],
+            [
+              -113.13165062610017,
+              33.421057119858666
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1612192,
+        "APN": "50629031D",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-031D",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "031D",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170629444",
+        "DEED_DATE": 1503619200000,
+        "SALE_DATE": "02/01/2017",
+        "SALE_PRICE": "3402267",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 1742400,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      67,600",
+        "LPV_CUR": "      27,977",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      64,000",
+        "LPV_PREV": "      26,645",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1930.7638577172459,
+        "Shape_Area": 232989.04360203815,
+        "LONGITUDE": -113.13381206079701,
+        "LATITUDE": 33.422869094858164
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13597625584003,
+              33.421053608663186
+            ],
+            [
+              -113.13597417624014,
+              33.42440875848478
+            ],
+            [
+              -113.13597400735685,
+              33.42468092480291
+            ],
+            [
+              -113.13164735533422,
+              33.42468444035013
+            ],
+            [
+              -113.13165062610017,
+              33.421057119858666
+            ],
+            [
+              -113.13597625584003,
+              33.421053608663186
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1612193,
+        "APN": "50629031E",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-031E",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "031E",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI II-HARQ FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170629444",
+        "DEED_DATE": 1503619200000,
+        "SALE_DATE": "02/01/2017",
+        "SALE_PRICE": "3402267",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 23109,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "WATER ASSET MANAGEMENT LLC",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "         897",
+        "LPV_CUR": "         371",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "         850",
+        "LPV_PREV": "         354",
+        "LC_PREV": "2.R",
+        "Shape_Length": 535.1852044170906,
+        "Shape_Area": 3090.6312892229153,
+        "LONGITUDE": -113.1348197335324,
+        "LATITUDE": 33.43552574865174
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13367212474697,
+              33.43557169205735
+            ],
+            [
+              -113.13367218313745,
+              33.435481009915684
+            ],
+            [
+              -113.13596734095913,
+              33.435479805227764
+            ],
+            [
+              -113.13596728526359,
+              33.43557048737068
+            ],
+            [
+              -113.13367212474697,
+              33.43557169205735
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1617749,
+        "APN": "50629018E",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-018E",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "018E",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD4 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE STE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE STE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170256556",
+        "DEED_DATE": 1491868800000,
+        "SALE_DATE": "03/01/2017",
+        "SALE_PRICE": "2289202",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 11277113,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     437,519",
+        "LPV_CUR": "     181,074",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     414,219",
+        "LPV_PREV": "     172,452",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5907.056355236592,
+        "Shape_Area": 1509274.3415165895,
+        "LONGITUDE": -113.13136508202118,
+        "LATITUDE": 33.429530858935514
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12729140026701,
+              33.43557481884509
+            ],
+            [
+              -113.12728525579047,
+              33.42831272635683
+            ],
+            [
+              -113.12729710007748,
+              33.421060501342964
+            ],
+            [
+              -113.12740524016971,
+              33.421060419617525
+            ],
+            [
+              -113.12945504023953,
+              33.421058844340685
+            ],
+            [
+              -113.12945251956684,
+              33.4246861662596
+            ],
+            [
+              -113.13164735533422,
+              33.42468444035013
+            ],
+            [
+              -113.13597400735685,
+              33.42468092480291
+            ],
+            [
+              -113.13597383577864,
+              33.42495839243707
+            ],
+            [
+              -113.13597176156864,
+              33.428310906055685
+            ],
+            [
+              -113.13596734095913,
+              33.435479805227764
+            ],
+            [
+              -113.13367218313745,
+              33.435481009915684
+            ],
+            [
+              -113.13367243107248,
+              33.43509509436973
+            ],
+            [
+              -113.1328137198143,
+              33.43509693027129
+            ],
+            [
+              -113.13281346918431,
+              33.43548144996039
+            ],
+            [
+              -113.13162361645452,
+              33.43548204893089
+            ],
+            [
+              -113.13162341613021,
+              33.43557273182113
+            ],
+            [
+              -113.12729140026701,
+              33.43557481884509
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1629152,
+        "APN": "50629013G",
+        "FLOOR": 1,
+        "APN_DASH": "506-29-013G",
+        "BOOK": "506",
+        "MAP": "29",
+        "ITEM": "013G",
+        "PUC": "4110",
+        "OWNER_NAME": "WPI-HD4 FARM AZ LLC",
+        "MAIL_ADDR1": "509 MADISON AVE STE 804",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "NEW YORK",
+        "MAIL_STATE": "NY",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "10022",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "509 MADISON AVE STE 804 NEW YORK NY USA 10022",
+        "DEED_NUMBER": "20170256555",
+        "DEED_DATE": 1491868800000,
+        "SALE_DATE": "02/01/2017",
+        "SALE_PRICE": "2817397",
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 12939812,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     502,026",
+        "LPV_CUR": "     207,772",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     475,291",
+        "LPV_PREV": "     197,879",
+        "LC_PREV": "2.R",
+        "Shape_Length": 6359.467058682873,
+        "Shape_Area": 1729600.4234218542,
+        "LONGITUDE": -113.14019021733316,
+        "LATITUDE": 33.4287180206288
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.13630152682124,
+              33.424955170049664
+            ],
+            [
+              -113.13629384083568,
+              33.42440561555011
+            ],
+            [
+              -113.13597417624014,
+              33.42440875848478
+            ],
+            [
+              -113.13597625584003,
+              33.421053608663186
+            ],
+            [
+              -113.13981591048588,
+              33.4210542242283
+            ],
+            [
+              -113.1398174699612,
+              33.42116383599101
+            ],
+            [
+              -113.13981792361045,
+              33.421616600766214
+            ],
+            [
+              -113.13981837636135,
+              33.42206936617939
+            ],
+            [
+              -113.13981882911224,
+              33.42252213223048
+            ],
+            [
+              -113.13981928365978,
+              33.42297489741988
+            ],
+            [
+              -113.14068319077357,
+              33.422974972395686
+            ],
+            [
+              -113.14154709698903,
+              33.42297504662178
+            ],
+            [
+              -113.14241100410284,
+              33.42297510960148
+            ],
+            [
+              -113.14327490942,
+              33.42297517108163
+            ],
+            [
+              -113.14413881563547,
+              33.422975225814014
+            ],
+            [
+              -113.14413833773175,
+              33.42252246137605
+            ],
+            [
+              -113.14413786431957,
+              33.42206969682618
+            ],
+            [
+              -113.14413738731419,
+              33.421616930665
+            ],
+            [
+              -113.14413722831237,
+              33.42146684458139
+            ],
+            [
+              -113.14413722831237,
+              33.4214665956573
+            ],
+            [
+              -113.14413691030876,
+              33.4211641666413
+            ],
+            [
+              -113.1441369884622,
+              33.42105451289163
+            ],
+            [
+              -113.14462931554354,
+              33.42105430370443
+            ],
+            [
+              -113.14463511596534,
+              33.42445978467363
+            ],
+            [
+              -113.1446408966242,
+              33.42785149097467
+            ],
+            [
+              -113.14464167636184,
+              33.42830848223627
+            ],
+            [
+              -113.14463555254656,
+              33.43124538803233
+            ],
+            [
+              -113.14462673109045,
+              33.43547715896239
+            ],
+            [
+              -113.13596734095913,
+              33.435479805227764
+            ],
+            [
+              -113.13597176156864,
+              33.428310906055685
+            ],
+            [
+              -113.13597383577864,
+              33.42495839243707
+            ],
+            [
+              -113.13630152682124,
+              33.424955170049664
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

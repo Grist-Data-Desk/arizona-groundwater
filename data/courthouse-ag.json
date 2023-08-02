@@ -1,0 +1,2205 @@
+{
+  "displayFieldName": "OWNER_NAME",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "APN": "APN",
+    "FLOOR": "Floor",
+    "APN_DASH": "Parcel Number",
+    "BOOK": "Book",
+    "MAP": "Map",
+    "ITEM": "Item",
+    "PUC": "PUC",
+    "OWNER_NAME": "Owner Name",
+    "MAIL_ADDR1": "Mailing Address1",
+    "MAIL_ADDR2": "Mailing Address2",
+    "MAIL_CITY": "Mailing Address City",
+    "MAIL_STATE": "Mailing Address State",
+    "MAIL_CNTRY": "Mailing Address Country",
+    "MAIL_ZIP": "Mailing Address Zip Code",
+    "PHYSICAL_STREET_NUM": "Property Street Number",
+    "PHYSICAL_STREET_DIR": "Property Street Direction",
+    "PHYSICAL_STREET_NAME": "Property Street Name",
+    "PHYSICAL_STREET_TYPE": "Property Street Type",
+    "PHYSICAL_STREET_SUFFIX": "Property Street Suffix",
+    "PHYSICAL_STREET_POSTDIR": "Property Street Post Direction",
+    "PHYSICAL_SUITE": "Property Suite",
+    "PHYSICAL_CITY": "Property City",
+    "PHYSICAL_ZIP": "Property Zip Code",
+    "PHYSICAL_ADDRESS": "Property Address",
+    "MAIL_ADDRESS": "Mailing Address",
+    "DEED_NUMBER": "Deed Number",
+    "DEED_DATE": "Deed Date",
+    "SALE_DATE": "Sale Date",
+    "SALE_PRICE": "Sale Price",
+    "MCRNUM": "MCR",
+    "MCR_BOOK": "MCR BOOK",
+    "MCR_PAGE": "MCR PAGE",
+    "SUBNAME": "Subdivision Name",
+    "LAND_SIZE": "Land Size",
+    "LOT_NUM": "Lot Number",
+    "BLOCK": "BLOCK",
+    "TRACT": "TRACT",
+    "STR": "Section Township Range",
+    "CITY_ZONING": "Zoning",
+    "JURISDICTION": "Jurisdiction",
+    "CONST_YEAR": "Construction Year",
+    "LIVING_SPACE": "Living Space Size",
+    "INCAREOF": "In Care Of",
+    "TAX_YR_CUR": "Current Tax Year",
+    "FCV_CUR": "Current Full Cash Value",
+    "LPV_CUR": "Current Limited Property Value",
+    "LC_CUR": "Current Tax Year Legal Class",
+    "TAX_YR_PREV": "Previous Tax Year",
+    "FCV_PREV": "Previous Full Cash Value",
+    "LPV_PREV": "Previous Limited Property Value",
+    "LC_PREV": "Previous Tax Year Legal Class",
+    "Shape_Length": "Shape_Length",
+    "Shape_Area": "Shape_Area",
+    "LONGITUDE": "Longitude",
+    "LATITUDE": "Latitude"
+  },
+  "geometryType": "esriGeometryPolygon",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+    },
+    {
+      "name": "APN",
+      "type": "esriFieldTypeString",
+      "alias": "APN",
+      "length": 50,
+      "domain": null
+    },
+    {
+      "name": "FLOOR",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Floor",
+      "domain": null
+    },
+    {
+      "name": "APN_DASH",
+      "type": "esriFieldTypeString",
+      "alias": "Parcel Number",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "BOOK",
+      "type": "esriFieldTypeString",
+      "alias": "Book",
+      "length": 3,
+      "domain": null
+    },
+    {
+      "name": "MAP",
+      "type": "esriFieldTypeString",
+      "alias": "Map",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "ITEM",
+      "type": "esriFieldTypeString",
+      "alias": "Item",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "PUC",
+      "type": "esriFieldTypeString",
+      "alias": "PUC",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "OWNER_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Owner Name",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDR1",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address1",
+      "length": 140,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDR2",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address2",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_CITY",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address City",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_STATE",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address State",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "MAIL_CNTRY",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address Country",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ZIP",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address Zip Code",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_NUM",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Number",
+      "length": 6,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_DIR",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Direction",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Name",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_TYPE",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Type",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_SUFFIX",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Suffix",
+      "length": 24,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_STREET_POSTDIR",
+      "type": "esriFieldTypeString",
+      "alias": "Property Street Post Direction",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_SUITE",
+      "type": "esriFieldTypeString",
+      "alias": "Property Suite",
+      "length": 7,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_CITY",
+      "type": "esriFieldTypeString",
+      "alias": "Property City",
+      "length": 30,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_ZIP",
+      "type": "esriFieldTypeString",
+      "alias": "Property Zip Code",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "PHYSICAL_ADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "Property Address",
+      "length": 256,
+      "domain": null
+    },
+    {
+      "name": "MAIL_ADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "Mailing Address",
+      "length": 256,
+      "domain": null
+    },
+    {
+      "name": "DEED_NUMBER",
+      "type": "esriFieldTypeString",
+      "alias": "Deed Number",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "DEED_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "Deed Date",
+      "length": 8,
+      "domain": null
+    },
+    {
+      "name": "SALE_DATE",
+      "type": "esriFieldTypeString",
+      "alias": "Sale Date",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "SALE_PRICE",
+      "type": "esriFieldTypeString",
+      "alias": "Sale Price",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "MCRNUM",
+      "type": "esriFieldTypeString",
+      "alias": "MCR",
+      "length": 7,
+      "domain": null
+    },
+    {
+      "name": "MCR_BOOK",
+      "type": "esriFieldTypeString",
+      "alias": "MCR BOOK",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "MCR_PAGE",
+      "type": "esriFieldTypeString",
+      "alias": "MCR PAGE",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "SUBNAME",
+      "type": "esriFieldTypeString",
+      "alias": "Subdivision Name",
+      "length": 100,
+      "domain": null
+    },
+    {
+      "name": "LAND_SIZE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Land Size",
+      "domain": null
+    },
+    {
+      "name": "LOT_NUM",
+      "type": "esriFieldTypeString",
+      "alias": "Lot Number",
+      "length": 6,
+      "domain": null
+    },
+    {
+      "name": "BLOCK",
+      "type": "esriFieldTypeString",
+      "alias": "Block",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "TRACT",
+      "type": "esriFieldTypeString",
+      "alias": "Tract",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "STR",
+      "type": "esriFieldTypeString",
+      "alias": "Section Township Range",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "CITY_ZONING",
+      "type": "esriFieldTypeString",
+      "alias": "Zoning",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "JURISDICTION",
+      "type": "esriFieldTypeString",
+      "alias": "Jurisdiction",
+      "length": 40,
+      "domain": null
+    },
+    {
+      "name": "CONST_YEAR",
+      "type": "esriFieldTypeString",
+      "alias": "Construction Year",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "LIVING_SPACE",
+      "type": "esriFieldTypeString",
+      "alias": "Living Space Size",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "INCAREOF",
+      "type": "esriFieldTypeString",
+      "alias": "In Care Of",
+      "length": 45,
+      "domain": null
+    },
+    {
+      "name": "TAX_YR_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Tax Year",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "FCV_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Full Cash Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LPV_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Limited Property Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LC_CUR",
+      "type": "esriFieldTypeString",
+      "alias": "Current Tax Year Legal Class",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "TAX_YR_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Tax Year",
+      "length": 4,
+      "domain": null
+    },
+    {
+      "name": "FCV_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Full Cash Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LPV_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Limited Property Value",
+      "length": 15,
+      "domain": null
+    },
+    {
+      "name": "LC_PREV",
+      "type": "esriFieldTypeString",
+      "alias": "Previous Tax Year Legal Class",
+      "length": 10,
+      "domain": null
+    },
+    {
+      "name": "Shape_Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Length",
+      "domain": null
+    },
+    {
+      "name": "Shape_Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Area",
+      "domain": null
+    },
+    {
+      "name": "LONGITUDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Longitude",
+      "domain": null
+    },
+    {
+      "name": "LATITUDE",
+      "type": "esriFieldTypeDouble",
+      "alias": "Latitude",
+      "domain": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 1266882,
+        "APN": "50603011",
+        "FLOOR": 1,
+        "APN_DASH": "506-03-011",
+        "BOOK": "506",
+        "MAP": "03",
+        "ITEM": "011",
+        "PUC": "0014",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "333 N CENTRAL AVE",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "PHOENIX",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85004",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "333 N CENTRAL AVE PHOENIX AZ USA 85004",
+        "DEED_NUMBER": "20060574714",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 1742400,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "13 7N 10W",
+        "CITY_ZONING": "RU-190",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "BYNER CATTLE CO/LAND & WATER DEPT",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     346,200",
+        "LPV_CUR": "      45,242",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     120,200",
+        "LPV_PREV": "      43,088",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2424.6772690210755,
+        "Shape_Area": 235815.25718211874,
+        "LONGITUDE": -113.25903745814841,
+        "LATITUDE": 33.95293253791115
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.25468515403772,
+              33.95383735901756
+            ],
+            [
+              -113.25468534268394,
+              33.9520239124166
+            ],
+            [
+              -113.26338967552893,
+              33.952027713464844
+            ],
+            [
+              -113.26338967013905,
+              33.95384115402362
+            ],
+            [
+              -113.25468515403772,
+              33.95383735901756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268444,
+        "APN": "50624014",
+        "FLOOR": 1,
+        "APN_DASH": "506-24-014",
+        "BOOK": "506",
+        "MAP": "24",
+        "ITEM": "014",
+        "PUC": "4117",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": "2001",
+        "PHYSICAL_STREET_DIR": "S",
+        "PHYSICAL_STREET_NAME": "539TH",
+        "PHYSICAL_STREET_TYPE": "AVE",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "2001 S 539TH AVE   TONOPAH  85354",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574710",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13623826,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "17 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "1940",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "   1,248,533",
+        "LPV_CUR": "     610,430",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "   1,103,116",
+        "LPV_PREV": "     581,362",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5740.561904457272,
+        "Shape_Area": 1823081.8656520846,
+        "LONGITUDE": -113.20949592752231,
+        "LATITUDE": 33.428341893930046
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.20523989192975,
+              33.435546182232756
+            ],
+            [
+              -113.2052291741301,
+              33.421139472835016
+            ],
+            [
+              -113.21375065669564,
+              33.42113767937532
+            ],
+            [
+              -113.21375752162106,
+              33.42828563475456
+            ],
+            [
+              -113.21376416017101,
+              33.43554267162333
+            ],
+            [
+              -113.20523989192975,
+              33.435546182232756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268563,
+        "APN": "50627009A",
+        "FLOOR": 1,
+        "APN_DASH": "506-27-009A",
+        "BOOK": "506",
+        "MAP": "27",
+        "ITEM": "009A",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": "53501",
+        "PHYSICAL_STREET_DIR": "W",
+        "PHYSICAL_STREET_NAME": "LOWER BUCKEYE",
+        "PHYSICAL_STREET_TYPE": "RD",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "53501 W LOWER BUCKEYE RD   TONOPAH  85354",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574710",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13400832,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "20 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     519,913",
+        "LPV_CUR": "     215,175",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     492,226",
+        "LPV_PREV": "     204,929",
+        "LC_PREV": "2.R",
+        "Shape_Length": 6104.857152830957,
+        "Shape_Area": 1793143.5928722192,
+        "LONGITUDE": -113.20533107133622,
+        "LATITUDE": 33.41727400396451
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.20186579636642,
+              33.420920038422636
+            ],
+            [
+              -113.20186369610526,
+              33.41962576921115
+            ],
+            [
+              -113.1996124793757,
+              33.41962598365027
+            ],
+            [
+              -113.19961454639919,
+              33.4209202536083
+            ],
+            [
+              -113.19657683128217,
+              33.420920480040685
+            ],
+            [
+              -113.19656567151138,
+              33.413771862023964
+            ],
+            [
+              -113.20522018199411,
+              33.413771048450066
+            ],
+            [
+              -113.21387210982037,
+              33.41376963275644
+            ],
+            [
+              -113.21387691221389,
+              33.41743307743263
+            ],
+            [
+              -113.21388134000992,
+              33.42080789810427
+            ],
+            [
+              -113.21375026323354,
+              33.42080793109446
+            ],
+            [
+              -113.2137504078623,
+              33.420917846827386
+            ],
+            [
+              -113.20186579636642,
+              33.420920038422636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268564,
+        "APN": "50627009B",
+        "FLOOR": 1,
+        "APN_DASH": "506-27-009B",
+        "BOOK": "506",
+        "MAP": "27",
+        "ITEM": "009B",
+        "PUC": "4570",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": "53931",
+        "PHYSICAL_STREET_DIR": "W",
+        "PHYSICAL_STREET_NAME": "LOWER BUCKEYE",
+        "PHYSICAL_STREET_TYPE": "RD",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "53931 W LOWER BUCKEYE RD   TONOPAH  85354",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574710",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 323791,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "20 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "1990",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     887,550",
+        "LPV_CUR": "     429,223",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     769,478",
+        "LPV_PREV": "     408,784",
+        "LC_PREV": "2.R",
+        "Shape_Length": 846.4517149702197,
+        "Shape_Area": 43259.527485880375,
+        "LONGITUDE": -113.20073912945645,
+        "LATITUDE": 33.420273012815564
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.19961454639919,
+              33.4209202536083
+            ],
+            [
+              -113.1996124793757,
+              33.41962598365027
+            ],
+            [
+              -113.20186369610526,
+              33.41962576921115
+            ],
+            [
+              -113.20186579636642,
+              33.420920038422636
+            ],
+            [
+              -113.19961454639919,
+              33.4209202536083
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268566,
+        "APN": "50627012",
+        "FLOOR": 1,
+        "APN_DASH": "506-27-012",
+        "BOOK": "506",
+        "MAP": "27",
+        "ITEM": "012",
+        "PUC": "4116",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574710",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6863749,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "21 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "1945",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     467,958",
+        "LPV_CUR": "     210,768",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     422,812",
+        "LPV_PREV": "     200,732",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3833.3579135180653,
+        "Shape_Area": 918389.4569503545,
+        "LONGITUDE": -113.1922444183431,
+        "LATITUDE": 33.41734925630952
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.1879223576304,
+              33.420926041878786
+            ],
+            [
+              -113.18791246089091,
+              33.41377829413162
+            ],
+            [
+              -113.19656567151138,
+              33.413771862023964
+            ],
+            [
+              -113.19657683128217,
+              33.420920480040685
+            ],
+            [
+              -113.1879223576304,
+              33.420926041878786
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268567,
+        "APN": "50627013",
+        "FLOOR": 1,
+        "APN_DASH": "506-27-013",
+        "BOOK": "506",
+        "MAP": "27",
+        "ITEM": "013",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574710",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6863749,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "21 1N 9W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     266,293",
+        "LPV_CUR": "     118,477",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     252,112",
+        "LPV_PREV": "     112,836",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3833.1281127842203,
+        "Shape_Area": 918278.3525513556,
+        "LONGITUDE": -113.18359047152073,
+        "LATITUDE": 33.41735462112381
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.1792690715514,
+              33.42093050229572
+            ],
+            [
+              -113.17925744465668,
+              33.41378412336939
+            ],
+            [
+              -113.18791246089091,
+              33.41377829413162
+            ],
+            [
+              -113.1879223576304,
+              33.420926041878786
+            ],
+            [
+              -113.1792690715514,
+              33.42093050229572
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268815,
+        "APN": "50630003",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-003",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "003",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 3383741,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "19 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     131,279",
+        "LPV_CUR": "      58,408",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     124,288",
+        "LPV_PREV": "      55,627",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2887.447609270798,
+        "Shape_Area": 460055.02283851197,
+        "LONGITUDE": -113.12513244186613,
+        "LATITUDE": 33.50452736498042
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12509866565908,
+              33.50815677062621
+            ],
+            [
+              -113.12300025325766,
+              33.508158443191796
+            ],
+            [
+              -113.12299925253443,
+              33.50090085046861
+            ],
+            [
+              -113.12726660676518,
+              33.50089738520326
+            ],
+            [
+              -113.12726364951126,
+              33.50815500742891
+            ],
+            [
+              -113.12509866565908,
+              33.50815677062621
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268816,
+        "APN": "50630004",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-004",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "004",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 3484800,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "19 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     135,200",
+        "LPV_CUR": "      60,152",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     128,000",
+        "LPV_PREV": "      57,288",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2887.4409826067736,
+        "Shape_Area": 460053.2356748225,
+        "LONGITUDE": -113.12086706353837,
+        "LATITUDE": 33.50453073909182
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.11873685161417,
+              33.50816173214638
+            ],
+            [
+              -113.11873313079226,
+              33.50271856153142
+            ],
+            [
+              -113.11873189291381,
+              33.500904169662384
+            ],
+            [
+              -113.11873223427362,
+              33.50090417565505
+            ],
+            [
+              -113.12299925253443,
+              33.50090085046861
+            ],
+            [
+              -113.12300025325766,
+              33.508158443191796
+            ],
+            [
+              -113.11873685161417,
+              33.50816173214638
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268817,
+        "APN": "50630005",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-005",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "005",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": "4523",
+        "PHYSICAL_STREET_DIR": "N",
+        "PHYSICAL_STREET_NAME": "499TH",
+        "PHYSICAL_STREET_TYPE": "AVE",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "4523 N 499TH AVE   TONOPAH  85354",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 3383741,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "19 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     131,279",
+        "LPV_CUR": "      58,408",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     124,288",
+        "LPV_PREV": "      55,627",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2888.1715142594194,
+        "Shape_Area": 460443.8669216873,
+        "LONGITUDE": -113.1251334281852,
+        "LATITUDE": 33.49726974372951
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12299925253443,
+              33.50090085046861
+            ],
+            [
+              -113.12299827067584,
+              33.49364322828572
+            ],
+            [
+              -113.1272695828837,
+              33.493639753740105
+            ],
+            [
+              -113.12726809257865,
+              33.49727010667527
+            ],
+            [
+              -113.12726660676518,
+              33.50089738520326
+            ],
+            [
+              -113.12299925253443,
+              33.50090085046861
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268818,
+        "APN": "50630006",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-006",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "006",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 3484800,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "19 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     135,200",
+        "LPV_CUR": "      15,038",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     128,000",
+        "LPV_PREV": "      14,322",
+        "LC_PREV": "2.R",
+        "Shape_Length": 2888.1705853078206,
+        "Shape_Area": 460444.3855664596,
+        "LONGITUDE": -113.12086409218384,
+        "LATITUDE": 33.49727314172674
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.11873223427362,
+              33.50090417565505
+            ],
+            [
+              -113.11873189291381,
+              33.500904169662384
+            ],
+            [
+              -113.11872695397638,
+              33.49364655450007
+            ],
+            [
+              -113.12299827067584,
+              33.49364322828572
+            ],
+            [
+              -113.12299925253443,
+              33.50090085046861
+            ],
+            [
+              -113.11873223427362,
+              33.50090417565505
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268819,
+        "APN": "50630007A",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-007A",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "007A",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 871200,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "19 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      33,800",
+        "LPV_CUR": "      22,481",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      32,000",
+        "LPV_PREV": "      21,411",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1448.7005913749279,
+        "Shape_Area": 116780.80613612734,
+        "LONGITUDE": -113.11656697412302,
+        "LATITUDE": 33.50181295831312
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.11440226207768,
+              33.50272177278954
+            ],
+            [
+              -113.11440060558431,
+              33.50090738772951
+            ],
+            [
+              -113.11873189291381,
+              33.500904169662384
+            ],
+            [
+              -113.11873313079226,
+              33.50271856153142
+            ],
+            [
+              -113.11440226207768,
+              33.50272177278954
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268820,
+        "APN": "50630007B",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-007B",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "007B",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": "49119",
+        "PHYSICAL_STREET_DIR": "W",
+        "PHYSICAL_STREET_NAME": "CAMELBACK",
+        "PHYSICAL_STREET_TYPE": "RD",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "49119 W CAMELBACK RD   TONOPAH  85354",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6093608,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "19 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     236,414",
+        "LPV_CUR": "     143,132",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     231,424",
+        "LPV_PREV": "     136,317",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3865.998152975806,
+        "Shape_Area": 816686.6625108033,
+        "LONGITUDE": -113.11409802149838,
+        "LATITUDE": 33.50492233015584
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.11224261152334,
+              33.50816646072053
+            ],
+            [
+              -113.1104056492938,
+              33.508167737053455
+            ],
+            [
+              -113.11040549208863,
+              33.508030339401415
+            ],
+            [
+              -113.11007746327948,
+              33.50803056410828
+            ],
+            [
+              -113.1100693128649,
+              33.50091045448152
+            ],
+            [
+              -113.11440060558431,
+              33.50090738772951
+            ],
+            [
+              -113.11440226207768,
+              33.50272177278954
+            ],
+            [
+              -113.11873313079226,
+              33.50271856153142
+            ],
+            [
+              -113.11873685161417,
+              33.50816173214638
+            ],
+            [
+              -113.11224261152334,
+              33.50816646072053
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268822,
+        "APN": "50630008",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-008",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "008",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 6969600,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "19 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     270,400",
+        "LPV_CUR": "     179,830",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     256,000",
+        "LPV_PREV": "     171,267",
+        "LC_PREV": "2.R",
+        "Shape_Length": 3866.632044573453,
+        "Shape_Area": 934427.906354592,
+        "LONGITUDE": -113.1143973065893,
+        "LATITUDE": 33.497278325890264
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.11440060558431,
+              33.50090738772951
+            ],
+            [
+              -113.1100693128649,
+              33.50091045448152
+            ],
+            [
+              -113.11006100883843,
+              33.493652988926435
+            ],
+            [
+              -113.11872695397638,
+              33.49364655450007
+            ],
+            [
+              -113.11873189291381,
+              33.500904169662384
+            ],
+            [
+              -113.11440060558431,
+              33.50090738772951
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268835,
+        "APN": "50630014",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-014",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "014",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13768445,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "30 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     534,175",
+        "LPV_CUR": "     221,078",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     505,728",
+        "LPV_PREV": "     210,551",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5778.719481181173,
+        "Shape_Area": 1844274.8989306975,
+        "LONGITUDE": -113.12299700108485,
+        "LATITUDE": 33.48638296965986
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12727558722305,
+              33.47912446995995
+            ],
+            [
+              -113.1272725733753,
+              33.48638211700159
+            ],
+            [
+              -113.1272695828837,
+              33.493639753740105
+            ],
+            [
+              -113.12299827067584,
+              33.49364322828572
+            ],
+            [
+              -113.11872695397638,
+              33.49364655450007
+            ],
+            [
+              -113.11872148593125,
+              33.486388724286144
+            ],
+            [
+              -113.11871603764904,
+              33.479130600511226
+            ],
+            [
+              -113.12727558722305,
+              33.47912446995995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268836,
+        "APN": "50630015E",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-015E",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "015E",
+        "PUC": "4570",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574711",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 217800,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "18 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "1956",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      84,210",
+        "LPV_CUR": "      49,071",
+        "LC_CUR": "1.12",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      71,900",
+        "LPV_PREV": "      46,735",
+        "LC_PREV": "1.12",
+        "Shape_Length": 724.148166783129,
+        "Shape_Area": 29178.062665483605,
+        "LONGITUDE": -113.12618085785492,
+        "LATITUDE": 33.50860929938373
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.12509805480468,
+              33.50906359007315
+            ],
+            [
+              -113.12509866565908,
+              33.50815677062621
+            ],
+            [
+              -113.12726364951126,
+              33.50815500742891
+            ],
+            [
+              -113.12726306201306,
+              33.5090618261453
+            ],
+            [
+              -113.12509805480468,
+              33.50906359007315
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268841,
+        "APN": "50630016A",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-016A",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "016A",
+        "PUC": "4117",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": "3404",
+        "PHYSICAL_STREET_DIR": "N",
+        "PHYSICAL_STREET_NAME": "491ST",
+        "PHYSICAL_STREET_TYPE": "AVE",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "TONOPAH",
+        "PHYSICAL_ZIP": "85354",
+        "PHYSICAL_ADDRESS": "3404 N 491ST AVE   TONOPAH  85354",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 13068000,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "30 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "1960",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     884,579",
+        "LPV_CUR": "     700,710",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     798,400",
+        "LPV_PREV": "     667,343",
+        "LC_PREV": "2.R",
+        "Shape_Length": 5803.362155121403,
+        "Shape_Area": 1752133.2116325577,
+        "LONGITUDE": -113.11453335746015,
+        "LATITUDE": 33.486816257383175
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.11871603764904,
+              33.479130600511226
+            ],
+            [
+              -113.11872148593125,
+              33.486388724286144
+            ],
+            [
+              -113.11872695397638,
+              33.49364655450007
+            ],
+            [
+              -113.11006100883843,
+              33.493652988926435
+            ],
+            [
+              -113.11005253682697,
+              33.48639482135807
+            ],
+            [
+              -113.1100594915839,
+              33.48095098416216
+            ],
+            [
+              -113.11016770893123,
+              33.480950913731974
+            ],
+            [
+              -113.11222397058289,
+              33.48094956881533
+            ],
+            [
+              -113.11438844688693,
+              33.48094811525638
+            ],
+            [
+              -113.1143889274856,
+              33.47913356163776
+            ],
+            [
+              -113.11871603764904,
+              33.479130600511226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1268842,
+        "APN": "50630016C",
+        "FLOOR": 1,
+        "APN_DASH": "506-30-016C",
+        "BOOK": "506",
+        "MAP": "30",
+        "ITEM": "016C",
+        "PUC": "4110",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060574713",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 435600,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "30 2N 8W",
+        "CITY_ZONING": "RU-43",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "      16,900",
+        "LPV_CUR": "      11,237",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "      16,000",
+        "LPV_PREV": "      10,702",
+        "LC_PREV": "2.R",
+        "Shape_Length": 966.1543090484698,
+        "Shape_Area": 58340.427663685834,
+        "LONGITUDE": -113.11330667598041,
+        "LATITUDE": 33.48004162183273
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.1143889274856,
+              33.47913356163776
+            ],
+            [
+              -113.11438844688693,
+              33.48094811525638
+            ],
+            [
+              -113.11222397058289,
+              33.48094956881533
+            ],
+            [
+              -113.11222537105643,
+              33.47913498450701
+            ],
+            [
+              -113.1143889274856,
+              33.47913356163776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1397814,
+        "APN": "14137004Y",
+        "FLOOR": 1,
+        "APN_DASH": "141-37-004Y",
+        "BOOK": "141",
+        "MAP": "37",
+        "ITEM": "004Y",
+        "PUC": "8804",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "7332 E BUTHERUS DR",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "SCOTTSDALE",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85260",
+        "PHYSICAL_STREET_NUM": "3175",
+        "PHYSICAL_STREET_DIR": "N",
+        "PHYSICAL_STREET_NAME": "GREENFIELD",
+        "PHYSICAL_STREET_TYPE": "RD",
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": "MESA",
+        "PHYSICAL_ZIP": "85215",
+        "PHYSICAL_ADDRESS": "3175 N GREENFIELD RD   MESA  85215",
+        "MAIL_ADDRESS": "7332 E BUTHERUS DR SCOTTSDALE AZ USA 85260",
+        "DEED_NUMBER": "20060892530",
+        "DEED_DATE": 1151884800000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 170,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "34 2N 6E",
+        "CITY_ZONING": "LI",
+        "JURISDICTION": "MESA",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": null,
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "          31",
+        "LPV_CUR": "          31",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "         310",
+        "LPV_PREV": "          86",
+        "LC_PREV": "2.R",
+        "Shape_Length": 20.832124373107618,
+        "Shape_Area": 22.741571461317562,
+        "LONGITUDE": -111.73094957675178,
+        "LATITUDE": 33.47362562682139
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -111.7309168023211,
+              33.47361392395341
+            ],
+            [
+              -111.73098239191326,
+              33.4736139906429
+            ],
+            [
+              -111.73098234160761,
+              33.47363733947073
+            ],
+            [
+              -111.73091675291377,
+              33.47363725329886
+            ],
+            [
+              -111.7309168023211,
+              33.47361392395341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1455959,
+        "APN": "50601017B",
+        "FLOOR": 1,
+        "APN_DASH": "506-01-017B",
+        "BOOK": "506",
+        "MAP": "01",
+        "ITEM": "017B",
+        "PUC": "0014",
+        "OWNER_NAME": "COURTHOUSE AG HOLDINGS LLC",
+        "MAIL_ADDR1": "333 N CENTRAL AVE",
+        "MAIL_ADDR2": null,
+        "MAIL_CITY": "PHOENIX",
+        "MAIL_STATE": "AZ",
+        "MAIL_CNTRY": "USA",
+        "MAIL_ZIP": "85004",
+        "PHYSICAL_STREET_NUM": null,
+        "PHYSICAL_STREET_DIR": null,
+        "PHYSICAL_STREET_NAME": null,
+        "PHYSICAL_STREET_TYPE": null,
+        "PHYSICAL_STREET_SUFFIX": "",
+        "PHYSICAL_STREET_POSTDIR": null,
+        "PHYSICAL_SUITE": null,
+        "PHYSICAL_CITY": null,
+        "PHYSICAL_ZIP": null,
+        "PHYSICAL_ADDRESS": "",
+        "MAIL_ADDRESS": "333 N CENTRAL AVE PHOENIX AZ USA 85004",
+        "DEED_NUMBER": "20060574714",
+        "DEED_DATE": 1146182400000,
+        "SALE_DATE": null,
+        "SALE_PRICE": null,
+        "MCRNUM": null,
+        "MCR_BOOK": null,
+        "MCR_PAGE": null,
+        "SUBNAME": null,
+        "LAND_SIZE": 1243046,
+        "LOT_NUM": null,
+        "BLOCK": null,
+        "TRACT": null,
+        "STR": "14 7N 10W",
+        "CITY_ZONING": "RU-190",
+        "JURISDICTION": "NO CITY/TOWN",
+        "CONST_YEAR": "",
+        "LIVING_SPACE": null,
+        "INCAREOF": "BYNER CATTLE CO/LAND AND WATER DEPT",
+        "TAX_YR_CUR": "2024",
+        "FCV_CUR": "     255,200",
+        "LPV_CUR": "      95,976",
+        "LC_CUR": "2.R",
+        "TAX_YR_PREV": "2023",
+        "FCV_PREV": "     137,600",
+        "LPV_PREV": "      91,406",
+        "LC_PREV": "2.R",
+        "Shape_Length": 1743.7928657141524,
+        "Shape_Area": 168161.2984625629,
+        "LONGITUDE": -113.270018024677,
+        "LATITUDE": 33.949983701186504
+      },
+      "geometry": {
+        "rings": [
+          [
+            [
+              -113.2668011347199,
+              33.9486850644906
+            ],
+            [
+              -113.27175856127715,
+              33.94861581277022
+            ],
+            [
+              -113.27219646392702,
+              33.95151066800345
+            ],
+            [
+              -113.26981486032724,
+              33.95177064120763
+            ],
+            [
+              -113.2668011347199,
+              33.9486850644906
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
